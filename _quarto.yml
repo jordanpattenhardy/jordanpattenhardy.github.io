@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jordan Patten Hardy"
+
+  navbar:
+    background: primary
+    left:
+      - text: "About Me"
+        href: About_Me.qmd
+      - text: "Resume"
+        href: HardyResume2025.pdf
+      - text: "Portfolio"
+        href: HardyPortfolio2025.pdf
+
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jordanpattenhardy
+
+format:
+  html:
+    theme: pulse
+    toc: true
