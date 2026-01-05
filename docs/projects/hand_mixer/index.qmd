@@ -1,0 +1,19 @@
+---
+title: "Next Generation Hand Mixer Design"
+description: "Brief summary of what I did."
+image: mixer_upright.png
+---
+
+## Project Overview
+This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality. 
+
+### Key Features
+* **Brushless Motor:** Quieter and more powerful.
+* **Balanced Weight:** Reduced wrist strain during long mixing sessions.
+* **Digital Display:** Accurate speed control.
+
+### Design Process
+You can even add more images here that aren't the thumbnail:
+![Early prototype sketches](.)
+
+[Link to Technical Report](report.pdf)

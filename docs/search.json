@@ -12,5 +12,26 @@
     "title": "Jordan Patten Hardy",
     "section": "",
     "text": "/&gt;"
+  },
+  {
+    "objectID": "projects/hand_mixer/index.html",
+    "href": "projects/hand_mixer/index.html",
+    "title": "Next Generation Hand Mixer Design",
+    "section": "",
+    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\n\n\n\n\n\n\nSome design changes that were implemented\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\ntext\n\n\n\n\nMost parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nMany tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas.\n\n\n\n\n\n\nThickness Test\n\n\n\n\n\n\n\nInterference Test\n\n\n\n\n\n\n\nZebra Test"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Light Following Robot\n\n\nBrief summary of what I did.\n\n\n\n\n\n\n\n\n\n\n\n\nNext Generation Hand Mixer Design\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/hand_mixer/index.html#project-overview",
+    "href": "projects/hand_mixer/index.html#project-overview",
+    "title": "Next Generation Hand Mixer Design",
+    "section": "",
+    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\n\n\n\n\n\n\nSome design changes that were implemented\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\ntext\n\n\n\n\nMost parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nMany tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas.\n\n\n\n\n\n\nThickness Test\n\n\n\n\n\n\n\nInterference Test\n\n\n\n\n\n\n\nZebra Test"
   }
 ]

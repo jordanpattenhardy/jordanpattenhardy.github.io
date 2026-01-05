@@ -1,0 +1,48 @@
+---
+title: "Next Generation Hand Mixer Design"
+image: mixer_upright.png
+---
+
+## Project Overview
+
+This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality. 
+
+![Comparison between Current Generation Smeg Hand Mixer and Next Generation Design](mixer_compare.png)
+
+### Key Features of the Next Generation Design
+
+::: {layout-ncol=2 layout-valign="center"}
+![Some design changes that were implemented](mixer_features1.png)
+
+![Parts of Completed Assembly](mixer_features2.png)
+:::
+
+
+### Design Process
+
+::: {layout-ncol=2}
+![Ideation Sketches](mixer_sketch.png)
+
+text
+:::
+
+
+* Most parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve. 
+
+
+
+### Testing and Documentation
+
+##### Tests
+
+Many tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas. 
+
+:::{layout-ncol=3 layout-valign="center"}
+![Thickness Test](mixer_thickness.png)
+
+![Interference Test](mixer_interference.png)
+
+![Zebra Test](mixer_zebra.png)
+:::
+
+##### Documentation
