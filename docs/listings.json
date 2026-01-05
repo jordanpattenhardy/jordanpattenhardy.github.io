@@ -6,8 +6,13 @@
   {
     "listing": "/Projects.html",
     "items": [
+      "/projects/robot_building/index.html",
+      "/projects/nes_controller/index.html",
       "/projects/light_robot/index.html",
-      "/projects/hand_mixer/index.html"
+      "/projects/phil_stat/index.html",
+      "/projects/hand_mixer/index.html",
+      "/projects/swingset_material/index.html",
+      "/projects/pneumatic_engine/index.html"
     ]
   }
 ]

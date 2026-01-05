@@ -1,0 +1,4 @@
+---
+title: "The Geometry of Gameplay: A Parametric Tribute to the NES Controller"
+image: nes.png
+---

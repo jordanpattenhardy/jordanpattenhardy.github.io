@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world.
+Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world.
 
 ::: {layout-align="center"}
 ![](headshot.jpg){width=50% fig-align="center"}
@@ -11,19 +11,21 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
 
 * **Bachelor of Science:** Mechanical Engineering, *Brigham Young University*
     * GPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient
-    * **Coursework:** Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design
+    * **Coursework:** Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design, Dynamic Systems Modeling
 
 ## RESEARCH EXPERIENCE
 * **Engineering for Global Health Research** | Provo, Utah (Apr 2025 – Present)
     * Developing sustainable medical technologies for resource-limited healthcare settings
-    * Conducting technical reviews and preparing documentation for research proposals
+    * Conducting technical reviews of the global health landscape 
 * **Disaster Relief and Mitigation Research** | Provo, Utah (Aug 2024 – Apr 2025)
     * Optimized emergency response systems using social impact diffusion models
     * Coauthored a published paper for the ASME IDETC 2025 conference
     * Delivered a technical presentation on a data-driven disaster relief system optimization
 
+*Learn more about BYU's Design Exploration Research Lab work: [design.byu.edu](https://www.design.byu.edu/)*
+
 ## WORK EXPERIENCE
-* **Teaching Assistant — Newtonian Mechanics**, *Brigham Young University* | Provo, Utah (Jan 2024 – May 2025)
+* **Teaching Assistant-Newtonian Mechanics**, *Brigham Young University* | Provo, Utah (Jan 2024 – May 2025)
     * Supported instruction of undergraduates in core engineering and physics concepts
     * Graded assignments and provided detailed feedback to enhance learning
 
@@ -32,13 +34,48 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
     * Completed 18 months of proselyting and community service in Spanish
     * Taught English to 4–8 community members weekly
     * Led groups of 10–12 volunteers and conducted regular training meetings
+    * Organized and coordinated region-wide Spanish-language musical devotionals
 * **English Teacher**, *International Language Program* | Pachuca, Mexico (Apr 2024 – Aug 2024)
+    * Designed and delivered structured English lesson plans for students across multiple age groups
+    * Assessed student progress and provided feedback to support language development
+    * Collaborated with fellow instructors and local staff to align curriculum goals and classroom strategies
+    * Developed cross-cultural communication skills by living and working in an immersive international environment
+* **Builder**, *Humanitarian Experience (HXP)* | Cusco, Peru (Jun 2021)
+    * Assisted in constructing a community school
+    * Gained cross-cultural experience through engagement with local customs and daily life
 
 ## SKILLS AND ACHIEVEMENTS
+::: {layout-ncol=2}
+#### Software & Tools
+* Onshape
+* SolidWorks 
+* Python
+* C++ 
+* LaTeX  
+* Ansys Workbench 
+* MATLAB 
+* Microsoft Office
 
-* **Software & Tools:** Onshape, SolidWorks, Python, C++, LaTeX, Ansys Workbench, MATLAB, Microsoft Office
-* **Technical Skills:** Mechanical design, computer-aided modeling, technical & project documentation, data analysis, cross-functional communication
-* **Certifications:** BYU Weidman Center Leadership Certificate (Expected 2027), Spanish Language Certificate (Expected 2027)
-* **Awards/Activities:** BYU Engineering Together Research Mentorship Award; Member of the American Society of Mechanical Engineers (ASME), the Society of Women Engineers (SWE), and the BYU Biomedical Engineering Association
+#### **Technical Skills** 
+* Mechanical design
+* Computer-aided modeling
+* Technical & project documentation
+* Data analysis
+* Interdisciplinary communication
+:::
 
-Link to my current [Resume](HardyResume2025.pdf)
+
+#### **Certifications** 
+* BYU Weidman Center Leadership Certificate (Expected 2027)
+* Spanish Language Certificate (Expected 2027)
+
+#### **Awards/Activities** 
+* BYU Engineering Together Research Mentorship Award
+* Crocker Innovation Fellow (2026)
+    * Collaborating on an interdisciplinary team to develop an IoT (Internet of Things) solution for a real-world problem
+* Professional Memberships: 
+    * The American Society of Mechanical Engineers (ASME)
+    * The Society of Women Engineers (SWE)
+    * The BYU Biomedical Engineering Association
+
+Link to my current [resume](HardyResume2025.pdf)

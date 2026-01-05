@@ -1,4 +1,4 @@
 ---
-title: "Light Following Robot"
+title: "The Logic of Light: Creating Collision-Free Pathfinding Systems"
 image: robot.jpg
 ---

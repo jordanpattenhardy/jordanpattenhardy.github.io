@@ -1,0 +1,7 @@
+---
+title: "The Modulus of Merriment: Selection Science for the Simply Supported Swing"
+image: swingset.jpg
+---
+
+![Photo by [Dan Meyers](https://unsplash.com/@dmey503) on [Unsplash](https://unsplash.com/photos/swing-across-green-trees-R-GPpK7Th2M)](swingset.jpg){fig-align="center" width="100%"}
+      

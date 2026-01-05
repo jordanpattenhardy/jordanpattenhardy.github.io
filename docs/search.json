@@ -4,7 +4,7 @@
     "href": "About_Me.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! I’m Jordan Patten Hardy: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world."
+    "text": "Hi! I’m Jordan Patten Hardy: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world."
   },
   {
     "objectID": "Resume.html",
@@ -16,44 +16,44 @@
   {
     "objectID": "projects/hand_mixer/index.html",
     "href": "projects/hand_mixer/index.html",
-    "title": "Next Generation Hand Mixer Design",
+    "title": "The Mechanics of Mix: Designing a Next-Generation Hand Mixer",
     "section": "",
-    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\n\n\n\n\n\n\nSome design changes that were implemented\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\ntext\n\n\n\n\nMost parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nMany tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas.\n\n\n\n\n\n\nThickness Test\n\n\n\n\n\n\n\nInterference Test\n\n\n\n\n\n\n\nZebra Test"
+    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\nThe benchmark design for this next generation model is the SMEG Hand Mixer HMF01. After examining the reviews placed by consumers, it was clear that many features were well-loved, but others still had room for improvement. Based on these reviews and personal experience, some changes that I decided to make for the Next-Generation of the SMEG Hand Mixer include:\n\nAn eject button for taking the beaters out instead of an eject switch, allowing for easier access and a smoother eject process.\nAn included charger case so the cord doesn’t get in the way during use, transitioning the mixer to be powered by a rechargeable battery.\nAn included bowl rest located near the bottom back of the mixer so that a user can set the mixer on the edge of the bowl when not in use.\nA larger surface area on the ergonomic grip (a highly rated feature).\nAn included storage case (combined with charger case) so the user can easily keep track of attachments.\nA styling update, including a flatter handle that doesn’t connect back into the body at the back.\nModernization, including an updated button / screen interface.\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\nKey Features of Next-Gen Design\n\n\n\n\n\nThe next generation design also keeps recognizable and consumer approved features of the original design, namely:\n\nThe same approximate size\nThe smooth, retro look\nThe self-balancing design\nThe nine speed options and LED display with set timer\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\nAfter deciding what changes to make for the next generation design, I began sketching ideas to implement each design change. Once I had chosen a design, I moved into the 3D modeling phase.\n\n\n\n\n\n\n\nI began by sketching the steps for each part of the mixer. Then, using the parametric modeling platform Onshape, I created my model.\n\nMost parts in the assembly were created using a master model and offset surfaces.\nThe body of the master model was created with a revolve.\nThe handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nFinal Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThickness AnalysisInjection Molding Prep\n\n\n\n\n\n\n\nInterference Check Mechanical Clearances\n\n\n\n\n\n\n\nZebra AnalysisCurvature Continuity\n\n\n\n\n\nDuring the iterative modeling process, I conducted a series of computational validations to ensure manufacturing readiness:\n\nInterference Testing: Verified that all internal gear meshes and housing tolerances were intentional, preventing mechanical clashing.\nThickness Analysis: Confirmed constant wall thickness across the chassis to facilitate high-quality injection molding.\nZebra Striping: Evaluated surface continuity to ensure light reflections flow smoothly across the curves of the mixer.\n\n\n\n\n\n\n\n\n\n\nEngineering Drawings\n\n\n\n\nThe final step after hours of parametric modeling was to document my work. This includes the creation of engineering drawings and the complilation of a design package.\n\n\n\nView the complete documentation here"
   },
   {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Light Following Robot\n\n\n\n\n\n\n\n\n\n\n\n\nNext Generation Hand Mixer Design\n\n\n\n\n\nNo matching items"
+    "text": "The Bricks of Bangkok: Reconstructing a Robotic Icon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Geometry of Gameplay: A Parametric Tribute to the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nThe Logic of Light: Creating Collision-Free Pathfinding Systems\n\n\n\n\n\n\n\n\n\n\n\n\nThe Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze\n\n\n\n\n\n\n\n\n\n\n\n\nThe Mechanics of Mix: Designing a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nThe Modulus of Merriment: Selection Science for the Simply Supported Swing\n\n\n\n\n\n\n\n\n\n\n\n\nThe Power of Pneumatics: A Study in Reciprocating Motion\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
   },
   {
     "objectID": "projects/hand_mixer/index.html#project-overview",
     "href": "projects/hand_mixer/index.html#project-overview",
-    "title": "Next Generation Hand Mixer Design",
+    "title": "The Mechanics of Mix: Designing a Next-Generation Hand Mixer",
     "section": "",
-    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\n\n\n\n\n\n\nSome design changes that were implemented\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\ntext\n\n\n\n\nMost parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nMany tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas.\n\n\n\n\n\n\nThickness Test\n\n\n\n\n\n\n\nInterference Test\n\n\n\n\n\n\n\nZebra Test"
+    "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\nThe benchmark design for this next generation model is the SMEG Hand Mixer HMF01. After examining the reviews placed by consumers, it was clear that many features were well-loved, but others still had room for improvement. Based on these reviews and personal experience, some changes that I decided to make for the Next-Generation of the SMEG Hand Mixer include:\n\nAn eject button for taking the beaters out instead of an eject switch, allowing for easier access and a smoother eject process.\nAn included charger case so the cord doesn’t get in the way during use, transitioning the mixer to be powered by a rechargeable battery.\nAn included bowl rest located near the bottom back of the mixer so that a user can set the mixer on the edge of the bowl when not in use.\nA larger surface area on the ergonomic grip (a highly rated feature).\nAn included storage case (combined with charger case) so the user can easily keep track of attachments.\nA styling update, including a flatter handle that doesn’t connect back into the body at the back.\nModernization, including an updated button / screen interface.\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\nKey Features of Next-Gen Design\n\n\n\n\n\nThe next generation design also keeps recognizable and consumer approved features of the original design, namely:\n\nThe same approximate size\nThe smooth, retro look\nThe self-balancing design\nThe nine speed options and LED display with set timer\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\nAfter deciding what changes to make for the next generation design, I began sketching ideas to implement each design change. Once I had chosen a design, I moved into the 3D modeling phase.\n\n\n\n\n\n\n\nI began by sketching the steps for each part of the mixer. Then, using the parametric modeling platform Onshape, I created my model.\n\nMost parts in the assembly were created using a master model and offset surfaces.\nThe body of the master model was created with a revolve.\nThe handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nFinal Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThickness AnalysisInjection Molding Prep\n\n\n\n\n\n\n\nInterference Check Mechanical Clearances\n\n\n\n\n\n\n\nZebra AnalysisCurvature Continuity\n\n\n\n\n\nDuring the iterative modeling process, I conducted a series of computational validations to ensure manufacturing readiness:\n\nInterference Testing: Verified that all internal gear meshes and housing tolerances were intentional, preventing mechanical clashing.\nThickness Analysis: Confirmed constant wall thickness across the chassis to facilitate high-quality injection molding.\nZebra Striping: Evaluated surface continuity to ensure light reflections flow smoothly across the curves of the mixer.\n\n\n\n\n\n\n\n\n\n\nEngineering Drawings\n\n\n\n\nThe final step after hours of parametric modeling was to document my work. This includes the creation of engineering drawings and the complilation of a design package.\n\n\n\nView the complete documentation here"
   },
   {
     "objectID": "About_Me.html#skills-and-achievements",
     "href": "About_Me.html#skills-and-achievements",
     "title": "About Me",
     "section": "SKILLS AND ACHIEVEMENTS",
-    "text": "SKILLS AND ACHIEVEMENTS\n\nSoftware & Tools: Onshape, SolidWorks, Python, C++, LaTeX, Ansys Workbench, MATLAB, Microsoft Office\nTechnical Skills: Mechanical design, computer-aided modeling, technical & project documentation, data analysis, cross-functional communication\nCertifications: BYU Weidman Center Leadership Certificate (Expected 2027), Spanish Language Certificate (Expected 2027)\nAwards/Activities: BYU Engineering Together Research Mentorship Award; Member of the American Society of Mechanical Engineers (ASME), the Society of Women Engineers (SWE), and the BYU Biomedical Engineering Association\n\nLink to my current Resume"
+    "text": "SKILLS AND ACHIEVEMENTS\n\n\n\nSoftware & Tools\n\nOnshape\nSolidWorks\nPython\nC++\nLaTeX\n\nAnsys Workbench\nMATLAB\nMicrosoft Office\n\n\n\nTechnical Skills\n\nMechanical design\nComputer-aided modeling\nTechnical & project documentation\nData analysis\nInterdisciplinary communication\n\n\n\n\n\nCertifications\n\nBYU Weidman Center Leadership Certificate (Expected 2027)\nSpanish Language Certificate (Expected 2027)\n\n\n\nAwards/Activities\n\nBYU Engineering Together Research Mentorship Award\nCrocker Innovation Fellow (2026)\n\nCollaborating on an interdisciplinary team to develop an IoT (Internet of Things) solution for a real-world problem\n\nProfessional Memberships:\n\nThe American Society of Mechanical Engineers (ASME)\nThe Society of Women Engineers (SWE)\nThe BYU Biomedical Engineering Association\n\n\nLink to my current resume"
   },
   {
     "objectID": "About_Me.html#education",
     "href": "About_Me.html#education",
     "title": "About Me",
     "section": "EDUCATION",
-    "text": "EDUCATION\n\nBachelor of Science: Mechanical Engineering, Brigham Young University\n\nGPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient\nCoursework: Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design"
+    "text": "EDUCATION\n\nBachelor of Science: Mechanical Engineering, Brigham Young University\n\nGPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient\nCoursework: Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design, Dynamic Systems Modeling"
   },
   {
     "objectID": "About_Me.html#research-experience",
     "href": "About_Me.html#research-experience",
     "title": "About Me",
     "section": "RESEARCH EXPERIENCE",
-    "text": "RESEARCH EXPERIENCE\n\nEngineering for Global Health Research | Provo, Utah (Apr 2025 – Present)\n\nDeveloping sustainable medical technologies for resource-limited healthcare settings\nConducting technical reviews and preparing documentation for research proposals\n\nDisaster Relief and Mitigation Research | Provo, Utah (Aug 2024 – Apr 2025)\n\nOptimized emergency response systems using social impact diffusion models\nCoauthored a published paper for the ASME IDETC 2025 conference\nDelivered a technical presentation on a data-driven disaster relief system optimization"
+    "text": "RESEARCH EXPERIENCE\n\nEngineering for Global Health Research | Provo, Utah (Apr 2025 – Present)\n\nDeveloping sustainable medical technologies for resource-limited healthcare settings\nConducting technical reviews of the global health landscape\n\nDisaster Relief and Mitigation Research | Provo, Utah (Aug 2024 – Apr 2025)\n\nOptimized emergency response systems using social impact diffusion models\nCoauthored a published paper for the ASME IDETC 2025 conference\nDelivered a technical presentation on a data-driven disaster relief system optimization\n\n\nLearn more about BYU’s Design Exploration Research Lab work: design.byu.edu"
   },
   {
     "objectID": "About_Me.html#work-volunteer-experience",
@@ -67,7 +67,7 @@
     "href": "About_Me.html#work-experience",
     "title": "About Me",
     "section": "WORK EXPERIENCE",
-    "text": "WORK EXPERIENCE\n\nTeaching Assistant — Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
+    "text": "WORK EXPERIENCE\n\nTeaching Assistant-Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
   },
   {
     "objectID": "About_Me.html#section",
@@ -81,7 +81,7 @@
     "href": "About_Me.html#volunteer-experience",
     "title": "About Me",
     "section": "VOLUNTEER EXPERIENCE",
-    "text": "VOLUNTEER EXPERIENCE\n\nFull-time Representative, The Church of Jesus Christ of Latter-day Saints | Reno, Nevada (Jun 2022 – Dec 2023)\n\nCompleted 18 months of proselyting and community service in Spanish\nTaught English to 4–8 community members weekly\nLed groups of 10–12 volunteers and conducted regular training meetings\n\nEnglish Teacher, International Language Program | Pachuca, Mexico (Apr 2024 – Aug 2024)"
+    "text": "VOLUNTEER EXPERIENCE\n\nFull-time Representative, The Church of Jesus Christ of Latter-day Saints | Reno, Nevada (Jun 2022 – Dec 2023)\n\nCompleted 18 months of proselyting and community service in Spanish\nTaught English to 4–8 community members weekly\nLed groups of 10–12 volunteers and conducted regular training meetings\nOrganized and coordinated region-wide Spanish-language musical devotionals\n\nEnglish Teacher, International Language Program | Pachuca, Mexico (Apr 2024 – Aug 2024)\n\nDesigned and delivered structured English lesson plans for students across multiple age groups\nAssessed student progress and provided feedback to support language development\nCollaborated with fellow instructors and local staff to align curriculum goals and classroom strategies\nDeveloped cross-cultural communication skills by living and working in an immersive international environment\n\nBuilder, Humanitarian Experience (HXP) | Cusco, Peru (Jun 2021)\n\nAssisted in constructing a community school\nGained cross-cultural experience through engagement with local customs and daily life"
   },
   {
     "objectID": "About_Me.html#volunte",
@@ -103,5 +103,47 @@
     "title": "About Me",
     "section": "VOLUNTEER EXPE",
     "text": "VOLUNTEER EXPE\n\nFull-time Representative, Church of Jesus Christ of Latter-Day Saints\n\nCompleted 18 months of proselyting and community service in Spanish\nTaught English to 4-8 community members weekly *Led groups of 10-12 volunteers and conducted regular training meetings"
+  },
+  {
+    "objectID": "About_Me.html#skills-and-achievements-1",
+    "href": "About_Me.html#skills-and-achievements-1",
+    "title": "About Me",
+    "section": "SKILLS AND ACHIEVEMENTS",
+    "text": "SKILLS AND ACHIEVEMENTS\n\n\n\nSoftware & Tools\n\nOnshape\nSolidWorks\nPython\nC++\nLaTeX\n\nAnsys Workbench\nMATLAB\nMicrosoft Office"
+  },
+  {
+    "objectID": "Projects.html#asdfa",
+    "href": "Projects.html#asdfa",
+    "title": "Projects",
+    "section": "",
+    "text": "View my current portfolio"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html",
+    "href": "projects/phil_stat/index.html",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "",
+    "text": "Photo by Camerauthor Photos on Unsplash"
+  },
+  {
+    "objectID": "projects/swingset_material/index.html",
+    "href": "projects/swingset_material/index.html",
+    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "section": "",
+    "text": "Photo by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "Projects.html#current-projects",
+    "href": "Projects.html#current-projects",
+    "title": "Projects",
+    "section": "Current Projects",
+    "text": "Current Projects\n\n\nView my current portfolio (PDF)"
+  },
+  {
+    "objectID": "Projects.html#works-in-progress",
+    "href": "Projects.html#works-in-progress",
+    "title": "Projects",
+    "section": "Works in Progress",
+    "text": "Works in Progress\n\n\nView my current portfolio (PDF)"
   }
 ]

@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-my-project-grid .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-my-project-grid'] = new List('listing-my-project-grid', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -205,13 +205,35 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div id="listing-my-project-grid" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767638080411" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767648927363" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/robot_building/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/robot_building/structure.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Bricks of Bangkok: Reconstructing a Robotic Icon
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767647940365" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/nes_controller/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/nes_controller/nes.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Geometry of Gameplay: A Parametric Tribute to the NES Controller
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1767650681005" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./projects/light_robot/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -219,12 +241,25 @@ window.Quarto = {
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Light Following Robot
+The Logic of Light: Creating Collision-Free Pathfinding Systems
 </h5>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767588183984" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1767646804079" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="./projects/phil_stat/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/phil_stat/groundhog.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1767654521772" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
 <a href="./projects/hand_mixer/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -232,14 +267,48 @@ Light Following Robot
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Next Generation Hand Mixer Design
+The Mechanics of Mix: Designing a Next-Generation Hand Mixer
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1767647298656" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<a href="./projects/swingset_material/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/swingset_material/swingset.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Modulus of Merriment: Selection Science for the Simply Supported Swing
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1767650415328" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/pneumatic_engine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/pneumatic_engine/engine.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Power of Pneumatics: A Study in Reciprocating Motion
 </h5>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+<div style="text-align: center;">
+<p>View my current <a href="HardyPortfolio2025.pdf">portfolio (PDF)</a></p>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <hr>
 <div style="text-align: center; padding: 5px 0;">
   <h5>Let's Connect</h5>

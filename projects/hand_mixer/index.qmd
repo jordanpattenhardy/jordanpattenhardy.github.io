@@ -1,5 +1,5 @@
 ---
-title: "Next Generation Hand Mixer Design"
+title: "The Mechanics of Mix: Designing a Next-Generation Hand Mixer"
 image: mixer_upright.png
 ---
 
@@ -11,38 +11,85 @@ This project aimed to modernize an existing design by enhancing its appearance a
 
 ### Key Features of the Next Generation Design
 
-::: {layout-ncol=2 layout-valign="center"}
-![Some design changes that were implemented](mixer_features1.png)
+The benchmark design for this next generation model is the SMEG Hand Mixer HMF01. After examining the reviews placed by consumers, it was clear that many features were well-loved, but others still had room for improvement. Based on these reviews and personal experience, some changes that I decided to make for the Next-Generation of the SMEG Hand Mixer include:
 
+1. An eject button for taking the beaters out instead of an eject switch, allowing for easier access and a smoother eject process.
+1. An included charger case so the cord doesn’t get in the way during use, transitioning the mixer to be powered by a rechargeable battery.
+1. An included bowl rest located near the bottom back of the mixer so that a user can set the mixer on the edge of the bowl when not in use.
+1. A larger surface area on the ergonomic grip (a highly rated feature).
+1. An included storage case (combined with charger case) so the user can easily keep track of attachments.
+1. A styling update, including a flatter handle that doesn’t connect back into the body at the back.
+1. Modernization, including an updated button / screen interface.
+
+::: {layout-ncol=2 layout-valign="center"}
 ![Parts of Completed Assembly](mixer_features2.png)
+
+
+![Key Features of Next-Gen Design](mixer_features1.png)
 :::
 
+The next generation design also keeps recognizable and consumer approved features of the original design, namely:
+
+* The same approximate size
+* The smooth, retro look
+* The self-balancing design
+* The nine speed options and LED display with set timer
 
 ### Design Process
 
-::: {layout-ncol=2}
-![Ideation Sketches](mixer_sketch.png)
+::: {.column-body}
 
-text
+::: {layout-ncol=2 layout-valign="center"}
+![**Ideation Sketches**](mixer_sketch.png){height="400px"}
+
+<div style="padding-left: 20px;">
+After deciding what changes to make for the next generation design, I began sketching ideas to implement each design change. Once I had chosen a design, I moved into the 3D modeling phase.
+</div>
 :::
 
+<br> 
 
-* Most parts in the assembly were created using a master model and offset surfaces. The body of the master model was created with a revolve, while the handle was formed using a complex loft that follows a guide curve. 
+::: {layout-ncol=2 layout-valign="center"}
+<div style="padding-right: 20px;">
+I began by sketching the steps for each part of the mixer. Then, using the parametric modeling platform *Onshape*, I created my model. 
 
+* Most parts in the assembly were created using a master model and offset surfaces. 
+* The body of the master model was created with a revolve. 
+* The handle was formed using a complex loft that follows a guide curve.
+</div>
 
+![**Final Design**](mixer_with_case.png){width="100%"}
+:::
+
+:::
 
 ### Testing and Documentation
 
 ##### Tests
 
-Many tests were run during the modeling process to make sure that a desirable result was being created. These tests were used to determine whether the interferences that occurred were expected, whether the model had a constant wall thickness so it could be constructed with injection modeling, and whether the model had a constant curvature in the intended areas. 
+::: {layout-ncol=3 layout-valign="center" style="text-align: center;"}
 
-:::{layout-ncol=3 layout-valign="center"}
-![Thickness Test](mixer_thickness.png)
+![**Thickness Analysis**<br>*Injection Molding Prep*](mixer_thickness.png){group="tests" style="border-radius: 8px; border: 1px solid #dee2e6;"}
 
-![Interference Test](mixer_interference.png)
+![**Interference Check**<br> *Mechanical Clearances*](mixer_interference.png){group="tests" style="border-radius: 8px; border: 1px solid #dee2e6;"}
 
-![Zebra Test](mixer_zebra.png)
+![**Zebra Analysis**<br>*Curvature Continuity*](mixer_zebra.png){group="tests" style="border-radius: 8px; border: 1px solid #dee2e6;"}
+
 :::
 
+During the iterative modeling process, I conducted a series of computational validations to ensure manufacturing readiness:
+
+* **Interference Testing:** Verified that all internal gear meshes and housing tolerances were intentional, preventing mechanical clashing.
+* **Thickness Analysis:** Confirmed constant wall thickness across the chassis to facilitate high-quality injection molding.
+* **Zebra Striping:** Evaluated surface continuity to ensure light reflections flow smoothly across the curves of the mixer.
+
+
 ##### Documentation
+:::{layout-ncol=2 layout-valign="center"}
+![Engineering Drawings](mixer_drawings.png){width=125%}
+
+The final step after hours of parametric modeling was to document my work. This includes the creation of engineering drawings and the complilation of a design package. 
+:::
+
+
+View the complete documentation [here](pjordan1_nextgenproject.pdf)

@@ -1,0 +1,6 @@
+---
+title: "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze"
+image: groundhog.png   
+---
+
+![Photo by [Camerauthor Photos](https://unsplash.com/@camerauthor?utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-small-animal-in-the-grass-qBj7yGTNQDg)](groundhog.png){fig-align="center" width="100%"}
