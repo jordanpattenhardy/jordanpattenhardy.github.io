@@ -123,7 +123,7 @@
     "href": "projects/phil_stat/index.html",
     "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
     "section": "",
-    "text": "Photo by Camerauthor Photos on Unsplash"
+    "text": "The aim of this project was to evaluate the accuracy of Punxsutawney Phil’s Groundhog Day predictions using historical weather data. Specifically, it investigates whether Phil’s shadow-based forecasts correlate with actual changes in average temperatures between February and March.\n\n\n\n\nPhoto by Camerauthor Photos on Unsplash"
   },
   {
     "objectID": "projects/swingset_material/index.html",
@@ -180,5 +180,61 @@
     "title": "The Power of Pneumatics: A Study in Reciprocating Motion",
     "section": "PartsMaking the",
     "text": "PartsMaking the\nAs part of a four-person team tasked with improving an engine design, I proposed and implemented modifications to enhance the manufacturability of a pneumatic engine assembly. We developed detailed process sheets for each component, specifying appropriate tooling and machining operations, and manufactured components using a range of techniques including CNC milling, manual turning, sand casting, and powder metallurgy.\n\n\n\nVideo\nRuntime Video\n\n\n\nOnce all we had manufactured all the components, the engine was fully assembled and tested. As a result of our team’s design modifications, the engine operated at a lower PSI than any of the other team’s engines built from the same initial design and specifications. Afterwards, we compiled a prototyping package, including detailed engineering drawings and process sheets for each part.\n\n\n\n\nExample Documentation\n\n\n\nWe also compiled a comprehensive design report, which included documentation of implemented design changes and recommendations for future improvements given investment casting and CNC Mill/Lathe as process options. Then, we created more engineerings drawings that documented the changes we suggested for each part for future iterations.\n\nView the complete prototyping package here\nView the complete design report here"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#section",
+    "href": "projects/phil_stat/index.html#section",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "",
+    "text": "Photo by Camerauthor Photos on Unsplash\n\n\nView the complete report here"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#project-over",
+    "href": "projects/phil_stat/index.html#project-over",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "",
+    "text": "Photo by Camerauthor Photos on Unsplash\n\n\nView the complete report here"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#project-overview",
+    "href": "projects/phil_stat/index.html#project-overview",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "",
+    "text": "The aim of this project was to evaluate the accuracy of Punxsutawney Phil’s Groundhog Day predictions using historical weather data. Specifically, it investigates whether Phil’s shadow-based forecasts correlate with actual changes in average temperatures between February and March.\n\n\n\n\nPhoto by Camerauthor Photos on Unsplash"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#intro",
+    "href": "projects/phil_stat/index.html#intro",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "Intro",
+    "text": "Intro\nEvery year on February 2nd, thousands gather in Punxsutawney, Pennsylvania, awaiting the spring forecast from the world’s most famous groundhog, Punxsutawney Phil. According to tradition, if Phil sees his shadow, six more weeks of winter are expected. However, if he doesn’t see his shadow, an early spring is on the way.\nWhile the event is a beloved cultural ritual, many question the accuracy of Phil’s predictions. Is there any truth behind the shadow-based forecasting, or is it simply superstition? To investigate, I analyzed historical average temperature data alongside Phil’s annual predictions to evaluate whether his forecasts align with actual weather patterns. Leaning toward belief rather than skepticism, I hypothesized that Punxsutawney Phil is correct more than half of the time."
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#methods",
+    "href": "projects/phil_stat/index.html#methods",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "Methods",
+    "text": "Methods\nTo test this hypothesis, a one-sample hypothesis test for proportions was used. The null hypothesis was that Phil is correct less than or equal to 50% of the time. The alternative hypothesis was that he is correct more than 50% of the time. I set conditions for a “correct” prediction and analyzed the data under four different thresholds for defining winter (a difference of 0°C (no change), the mean of the distribution (7.88℉ increase), the median (7.96℉ increase), the 25th percentile (5.29℉ increase) ). Using if statements in Python, I determined whether each prediction was correct according to the defined threshold, and calculated the proportion of correct predictions for each method. For hypothesis testing and confidence intervals, I used norm.cdf or norm.ppf from the scipy.stats library."
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#results",
+    "href": "projects/phil_stat/index.html#results",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "Results",
+    "text": "Results\nResults for the evaluation of the proportion of correct predictions for each definition of winter are shown in Figure 1.\n\nAfter calculating the proportion of correct predictions, I used a one-sample hypothesis test for proportions, with hypotheses outlined in the methods section. The results are outlined in Table 1, along with the results for a 95% confidence interval for the true population proportion of accurate predictions. None of the p values for the proportion of predictions were statistically significant at a level of 𝛂 = 0.05.\n\n\n\nTable 1: A summary of statistics obtained from a hypothesis test for proportions and a computed confidence interval for a population proportion of correct predictions made by Punxsutawney Phil.\n\n\n\n\n\n\n\n\n\n\n\nMethod\n95% Confidence Interval\nP Value\nStatistically Significant (\\(𝛂 = 0.05\\))\n\n\n\n\nMean/Median\n\\([0.425, 0.575]\\)\n\\(0.5\\)\nNo\n\n\n25th Percentile\n\\([0.263, 0.404]\\)\n\\(0.999\\)\nNo\n\n\nDifference of Zero\n\\([0.096, 0.204]\\)\n\\(1.0\\)\nNo"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#discussion",
+    "href": "projects/phil_stat/index.html#discussion",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "Discussion",
+    "text": "Discussion\nBecause none of the p values are large, we have no basis for rejecting our null hypothesis. Therefore, we fail to reject the null hypothesis, and cannot conclude that Phil’s predictions are correct more than 50 percent of the time. It appears that Punxsutawney Phil’s predictions do not significantly outperform random chance under any of the thresholds tested. While the folklore is entertaining and charming, the data suggests that Phil may not be a reliable source of meteorological insight. Similarly, the calculated confidence intervals provide a region in which we can be 95% confident that the true population proportion of correct predictions lies.\nView the complete report here"
+  },
+  {
+    "objectID": "projects/phil_stat/index.html#introduction",
+    "href": "projects/phil_stat/index.html#introduction",
+    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "section": "Introduction",
+    "text": "Introduction\nEvery year on February 2nd, thousands gather in Punxsutawney, Pennsylvania, awaiting the spring forecast from the world’s most famous groundhog, Punxsutawney Phil. According to tradition, if Phil sees his shadow, six more weeks of winter are expected. However, if he doesn’t see his shadow, an early spring is on the way.\nWhile the event is a beloved cultural ritual, many question the accuracy of Phil’s predictions. Is there any truth behind the shadow-based forecasting, or is it simply superstition? To investigate, I analyzed historical average temperature data alongside Phil’s annual predictions to evaluate whether his forecasts align with actual weather patterns. Leaning toward belief rather than skepticism, I hypothesized that Punxsutawney Phil is correct more than half of the time."
   }
 ]

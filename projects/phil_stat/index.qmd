@@ -2,5 +2,39 @@
 title: "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze"
 image: groundhog.png   
 ---
+## Project Overview
+The aim of this project was to evaluate the accuracy of Punxsutawney Phil’s Groundhog Day predictions using historical weather data. Specifically, it investigates whether Phil's shadow-based forecasts correlate with actual changes in average temperatures between February and March. 
 
-![Photo by [Camerauthor Photos](https://unsplash.com/@camerauthor?utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-small-animal-in-the-grass-qBj7yGTNQDg)](groundhog.png){fig-align="center" width="100%"}
+
+::: {style="text-align: center:"}
+![Photo by [Camerauthor Photos](https://unsplash.com/@camerauthor?utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-small-animal-in-the-grass-qBj7yGTNQDg)](groundhog.png){fig-align="center" width="50%"}
+:::
+
+## Introduction
+Every year on February 2nd, thousands gather in Punxsutawney, Pennsylvania, awaiting the spring forecast from the world’s most famous groundhog, Punxsutawney Phil. According to tradition, if Phil sees his shadow, six more weeks of winter are expected. However, if he doesn’t see his shadow, an early spring is on the way. 
+
+While the event is a beloved cultural ritual, many question the accuracy of Phil’s predictions. Is there any truth behind the shadow-based forecasting, or is it simply superstition? To investigate, I analyzed historical average temperature data alongside Phil’s annual predictions to evaluate whether his forecasts align with actual weather patterns. Leaning toward belief rather than skepticism, I hypothesized that Punxsutawney Phil is correct more than half of the time. 
+
+## Methods
+To test this hypothesis, a one-sample hypothesis test for proportions was used. The null hypothesis was that Phil is correct less than or equal to 50% of the time. The alternative hypothesis was that he is correct more than 50% of the time. I set conditions for a "correct" prediction and analyzed the data under four different thresholds for defining winter (a difference of 0°C (no change), the mean of the distribution (7.88℉ increase), the median (7.96℉ increase), the 25th percentile (5.29℉ increase)
+). Using *if* statements in Python, I determined whether each prediction was correct according to the defined threshold, and calculated the proportion of correct predictions for each method. For hypothesis testing and confidence intervals, I used *norm.cdf* or *norm.ppf* from the *scipy.stats* library. 
+
+## Results
+Results for the evaluation of the proportion of correct predictions for each definition of winter are shown in Figure 1. 
+
+![](phil_graph.png)
+
+After calculating the proportion of correct predictions, I used a one-sample hypothesis test for proportions, with hypotheses outlined in the methods section. The results are outlined in Table 1, along with the results for a 95% confidence interval for the true population proportion of accurate predictions. None of the p values for the proportion of predictions were statistically significant at a level of 𝛂 = 0.05.
+
+| Method | 95% Confidence Interval | P Value | Statistically Significant ($𝛂 = 0.05$) |
+|:-----------|:-----------:|:-----------:|:-----------:|
+| Mean/Median | $[0.425, 0.575]$ | $0.5$ | No |
+| 25th Percentile | $[0.263, 0.404]$ | $0.999$ | No |
+| Difference of Zero | $[0.096, 0.204]$ | $1.0$ | No |
+
+: A summary of statistics obtained from a  hypothesis test for proportions and a computed confidence interval for a population proportion of correct predictions made by Punxsutawney Phil. {#tbl-engine-stats}
+
+## Discussion
+Because none of the p values are large, we have no basis for rejecting our null hypothesis. Therefore, we fail to reject the null hypothesis, and cannot conclude that Phil’s predictions are correct more than 50 percent of the time. It appears that Punxsutawney Phil’s predictions do not significantly outperform random chance under any of the thresholds tested. While the folklore is entertaining and charming, the data suggests that Phil may not be a reliable source of meteorological insight. Similarly, the calculated confidence intervals provide a region in which we can be 95% confident that the true population proportion of correct predictions lies. 
+
+View the complete report [here](phil_proj.pdf)
