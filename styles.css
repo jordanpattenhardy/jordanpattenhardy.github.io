@@ -1,0 +1,4 @@
+/* Centers all figure captions */
+figcaption, .figure-caption {
+  text-align: center !important;
+}
