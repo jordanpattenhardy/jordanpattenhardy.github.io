@@ -285,5 +285,33 @@
     "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
     "section": "Key aspects of the project",
     "text": "Key aspects of the project\n\nCircuit Design: Assembled and tested circuits using resistors, capacitors, voltage sources (battery), DC motors, and a breadboard.\nEmbedded Systems & Control Logic: Programmed an Arduino and used a finite state machine to control the robot’s behavior.\nMechanical Problem Solving: Diagnosed and resolved wheel slippage by adding rubber bands for traction, improving mobility and performance."
+  },
+  {
+    "objectID": "projects/nes_controller/index.html",
+    "href": "projects/nes_controller/index.html",
+    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "section": "",
+    "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a parametric CAD model."
+  },
+  {
+    "objectID": "projects/nes_controller/index.html#project-overview",
+    "href": "projects/nes_controller/index.html#project-overview",
+    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "section": "",
+    "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a parametric CAD model."
+  },
+  {
+    "objectID": "projects/nes_controller/index.html#section",
+    "href": "projects/nes_controller/index.html#section",
+    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "section": "",
+    "text": "The controller was modeled using engineering drawings drawn by C. A.&nbsp ~Mattson.\nCAD operations used in the completion of this project include lofts, revolves, sweeps, and patterns.\nMany parts were modeled, including the Start/Select Buttons, the A/B Buttons, the D-Pad, the Top and Bottom covers (with supports and rib bosses) and the PCB. Other parts, such as the charging cord, were provided as part of the project.\n\n\n\n\nExploded View Assemly"
+  },
+  {
+    "objectID": "projects/nes_controller/index.html#project-details",
+    "href": "projects/nes_controller/index.html#project-details",
+    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "section": "Project Details",
+    "text": "Project Details\n\nThe controller was modeled using engineering drawings drawn by C. A. Mattson.\nCAD operations used in the completion of this project include lofts, revolves, sweeps, and patterns.\nI modeled many of the parts, including the Start/Select Buttons, the A/B Buttons, the D-Pad, the Top and Bottom covers (with supports and rib bosses) and the PCB. Other parts, such as the charging cord, were provided as part of the project.\n\n\n\n\nExploded View Assemly"
   }
 ]

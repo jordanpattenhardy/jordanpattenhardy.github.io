@@ -2,3 +2,16 @@
 title: "The Geometry of Gameplay: A Parametric Tribute to the NES Controller"
 image: nes.png
 ---
+## Project Overview
+The goal of this project was to recreate Nintendo's iconic NES controller as a parametric CAD model.
+
+![Completed Assembly](nes.png)
+
+
+## Project Details
+
+* The controller was modeled using engineering drawings drawn by C.&nbsp;A.&nbsp;Mattson.
+* CAD operations used in the completion of this project include lofts, revolves, sweeps, and patterns.
+* I modeled many of the parts, including the Start/Select Buttons, the A/B Buttons, the D-Pad, the Top and Bottom covers (with supports and rib bosses) and the PCB. Other parts, such as the charging cord, were provided as part of the project. 
+
+![Exploded View Assemly](nes_expanded.png)
