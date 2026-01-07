@@ -257,5 +257,33 @@
     "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
     "section": "Results and Final Recommendation",
     "text": "Results and Final Recommendation"
+  },
+  {
+    "objectID": "projects/light_robot/index.html",
+    "href": "projects/light_robot/index.html",
+    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "section": "",
+    "text": "The aim of this project was to build a robot capable of following a light source in a dark environment with integrated collision protection and servo control.\n\n\n\nVideo\nRuntime Video"
+  },
+  {
+    "objectID": "projects/light_robot/index.html#project-overview",
+    "href": "projects/light_robot/index.html#project-overview",
+    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "section": "",
+    "text": "The aim of this project was to build a robot capable of following a light source in a dark environment with integrated collision protection and servo control.\n\n\n\nVideo\nRuntime Video"
+  },
+  {
+    "objectID": "projects/light_robot/index.html#key-aspects-included",
+    "href": "projects/light_robot/index.html#key-aspects-included",
+    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "section": "Key aspects included:",
+    "text": "Key aspects included:\nCircuit Design: Assembled and tested circuits using resistors, capacitors, voltage sources (battery), DC motors, and a breadboard.\nEmbedded Systems & Control Logic: Programmed an Arduino and used a finite state machine to control the robot’s behavior.\nMechanical Problem Solving: Diagnosed and resolved wheel slippage by adding rubber bands for traction, improving mobility and performance."
+  },
+  {
+    "objectID": "projects/light_robot/index.html#key-aspects-of-the-project",
+    "href": "projects/light_robot/index.html#key-aspects-of-the-project",
+    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "section": "Key aspects of the project",
+    "text": "Key aspects of the project\n\nCircuit Design: Assembled and tested circuits using resistors, capacitors, voltage sources (battery), DC motors, and a breadboard.\nEmbedded Systems & Control Logic: Programmed an Arduino and used a finite state machine to control the robot’s behavior.\nMechanical Problem Solving: Diagnosed and resolved wheel slippage by adding rubber bands for traction, improving mobility and performance."
   }
 ]
