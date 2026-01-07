@@ -130,7 +130,7 @@
     "href": "projects/swingset_material/index.html",
     "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
     "section": "",
-    "text": "Photo by Dan Meyers on Unsplash"
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
   },
   {
     "objectID": "Projects.html#current-projects",
@@ -236,5 +236,26 @@
     "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
     "section": "Introduction",
     "text": "Introduction\nEvery year on February 2nd, thousands gather in Punxsutawney, Pennsylvania, awaiting the spring forecast from the world’s most famous groundhog, Punxsutawney Phil. According to tradition, if Phil sees his shadow, six more weeks of winter are expected. However, if he doesn’t see his shadow, an early spring is on the way.\nWhile the event is a beloved cultural ritual, many question the accuracy of Phil’s predictions. Is there any truth behind the shadow-based forecasting, or is it simply superstition? To investigate, I analyzed historical average temperature data alongside Phil’s annual predictions to evaluate whether his forecasts align with actual weather patterns. Leaning toward belief rather than skepticism, I hypothesized that Punxsutawney Phil is correct more than half of the time."
+  },
+  {
+    "objectID": "projects/swingset_material/index.html#project-overview",
+    "href": "projects/swingset_material/index.html#project-overview",
+    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/swingset_material/index.html#results-and-final",
+    "href": "projects/swingset_material/index.html#results-and-final",
+    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "section": "Results and Final",
+    "text": "Results and Final"
+  },
+  {
+    "objectID": "projects/swingset_material/index.html#results-and-final-recommendation",
+    "href": "projects/swingset_material/index.html#results-and-final-recommendation",
+    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "section": "Results and Final Recommendation",
+    "text": "Results and Final Recommendation"
   }
 ]

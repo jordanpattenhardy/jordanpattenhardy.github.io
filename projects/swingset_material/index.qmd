@@ -2,6 +2,13 @@
 title: "The Modulus of Merriment: Selection Science for the Simply Supported Swing"
 image: swingset.jpg
 ---
+## Project Overview
+
+For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.
 
 ![Photo by [Dan Meyers](https://unsplash.com/@dmey503) on [Unsplash](https://unsplash.com/photos/swing-across-green-trees-R-GPpK7Th2M)](swingset.jpg){fig-align="center" width="100%"}
-      
+
+## Results and Final Recommendation      
+
+<iframe src="swingset.pdf#toolbar=0&navpanes=0" width="75%" height="900px"></iframe>
+
