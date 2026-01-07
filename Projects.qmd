@@ -14,7 +14,7 @@ listing:
   fields: [image, title]
   
 ---
-
+To view each project's details, click the image. 
 
 ::: {#my-project-grid}
 :::

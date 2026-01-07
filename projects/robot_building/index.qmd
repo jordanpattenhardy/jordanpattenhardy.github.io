@@ -2,3 +2,19 @@
 title: "The Bricks of Bangkok: Reconstructing a Robotic Icon"
 image: structure.png
 ---
+## Project Overview
+This project focused on designing and constructing an original architectural model using LEGO elements. It involved developing a configuration generator to explore design variations, followed by extensive assembly to bring the final concept to life. All work was done on the Onshape CAD platform.
+
+## Lego Configuration Generator
+The creation of the configuration generator allowed for ease and simplicity of assembly. Changing the settings made it possible to create LEGO bricks of any size as needed.
+
+![LEGO Configuration Generator](lego_config.png)
+
+## The Robot Building-CAD Modeling
+I chose to design a hypothetical LEGO architecture set inspired by the Bank of Asia in Bangkok, Thailand---affectionately known as *The Robot Building*. The structure appealed to me because of its unique shape and fun appearance.
+
+![Illustration of the stages of the LEGO structure design](structure_comp.png)
+
+After developing an assembly plan (included in the complete documentation), I opened an Assembly Studio in Onshape and began construction. Using the configuration generator, I inserted the required pieces and sourced any special, non-rectangular elements from a provided database. I especially enjoyed this project as it allowed me to merge structured engineering design with creativity---bringing my inner child to life.
+
+View the complete documentation [here](structure_docs.pdf)

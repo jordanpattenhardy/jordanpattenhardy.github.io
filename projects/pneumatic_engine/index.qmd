@@ -25,7 +25,7 @@ Once all we had manufactured all the components, the engine was fully assembled 
 ![Example Documentation](engine_docs.png)
 :::
 
-We also compiled a comprehensive design report, which included documentation of implemented design changes and recommendations for future improvements given investment casting and CNC Mill/Lathe as process options. Then, we created more engineerings drawings that documented the changes we suggested for each part for future iterations.
+We also compiled a comprehensive design report, which included documentation of implemented design changes and recommendations for future improvements given investment casting and CNC Mill/Lathe as process options. Then, we created more engineerings drawings that documented the changes we suggested for each part for future iterations. These new models and drawings were created using SolidWorks.
 
 <hr>
 
