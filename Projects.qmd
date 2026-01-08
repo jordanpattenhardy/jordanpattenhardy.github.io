@@ -5,15 +5,16 @@ listing:
   contents: 
     - "hand_mixer/index.qmd" 
     - "light_robot/index.qmd"
-    - "phil_stat/index.qmd"
     - "robot_building/index.qmd"
-    - "nes_controller/index.qmd"
-    - "swingset_material/index.qmd"
     - "pneumatic_engine/index.qmd"
+    - "nes_controller/index.qmd"
     - "scissor_jack/index.qmd"
+    - "phil_stat/index.qmd"
+    - "swingset_material/index.qmd"
     - "car_coast/index.qmd"
   type: grid
   fields: [image, title]
+  sort: false
   
 ---
 To view each project's details, click the image. 
@@ -23,6 +24,7 @@ To view each project's details, click the image.
 
 ---
 Current Projects: 
+
 ---
 <div style="text-align: center;">
   View my current [portfolio (PDF)](HardyPortfolio2025.pdf)

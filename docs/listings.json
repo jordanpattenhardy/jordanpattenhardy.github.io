@@ -6,15 +6,15 @@
   {
     "listing": "/Projects.html",
     "items": [
-      "/projects/scissor_jack/index.html",
-      "/projects/robot_building/index.html",
-      "/projects/car_coast/index.html",
-      "/projects/nes_controller/index.html",
-      "/projects/light_robot/index.html",
-      "/projects/phil_stat/index.html",
       "/projects/hand_mixer/index.html",
+      "/projects/light_robot/index.html",
+      "/projects/robot_building/index.html",
+      "/projects/pneumatic_engine/index.html",
+      "/projects/nes_controller/index.html",
+      "/projects/scissor_jack/index.html",
+      "/projects/phil_stat/index.html",
       "/projects/swingset_material/index.html",
-      "/projects/pneumatic_engine/index.html"
+      "/projects/car_coast/index.html"
     ]
   }
 ]

@@ -25,7 +25,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\nScissor Jack\n\n\n\n\n\n\n\n\n\n\n\n\nThe Bricks of Bangkok: Reconstructing a Robotic Icon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nThe Geometry of Gameplay: A Parametric Tribute to the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nThe Logic of Light: Creating Collision-Free Pathfinding Systems\n\n\n\n\n\n\n\n\n\n\n\n\nThe Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze\n\n\n\n\n\n\n\n\n\n\n\n\nThe Mechanics of Mixing: Designing a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nThe Modulus of Merriment: Selection Science for the Simply Supported Swing\n\n\n\n\n\n\n\n\n\n\n\n\nThe Power of Pneumatics: A Study in Reciprocating Motion\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
+    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\nThe Mechanics of Mixing: Designing a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nThe Logic of Light: Creating Collision-Free Pathfinding Systems\n\n\n\n\n\n\n\n\n\n\n\n\nThe Bricks of Bangkok: Reconstructing a Robotic Icon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Power of Pneumatics: A Study in Reciprocating Motion\n\n\n\n\n\n\n\n\n\n\n\n\nThe Geometry of Gameplay: A Parametric Tribute to the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nThe Stress of Support: A Finite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nThe Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze\n\n\n\n\n\n\n\n\n\n\n\n\nThe Modulus of Merriment: Selection Science for the Simply Supported Swing\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
   },
   {
     "objectID": "projects/hand_mixer/index.html#project-overview",
@@ -446,5 +446,89 @@
     "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
     "section": "Discussion",
     "text": "Discussion\nThe coefficient of drag \\(C_d\\) primarily influences vehicle deceleration at higher speeds due to its quadratic relationship with velocity, making it more dominant during the early phase of coast-down. In contrast, the rolling friction coefficient \\(k\\) exerts a near-constant effect and is more significant at lower speeds.\nBecause of this, the effects of \\(C_d\\) and \\(k\\) can be distinguished by examining how quickly velocity drops early in the coast versus how it behaves near the end. However, there is still some flexibility—it is possible to slightly increase one parameter while decreasing the other and still achieve a visually similar fit. This limits the precision with which either parameter can be determined individually, a trade-off we quantified through our confidence interval analysis.\nView the complete report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html",
+    "href": "projects/scissor_jack/index.html",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "",
+    "text": "The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards."
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#project-overview",
+    "href": "projects/scissor_jack/index.html#project-overview",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "",
+    "text": "The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards."
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#section",
+    "href": "projects/scissor_jack/index.html#section",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "",
+    "text": "View the complete scissor jack pin report here\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#title",
+    "href": "projects/scissor_jack/index.html#title",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "title",
+    "text": "title\n \nView the complete scissor jack pin report here\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#pin-design",
+    "href": "projects/scissor_jack/index.html#pin-design",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Pin Design",
+    "text": "Pin Design\n \nView the complete scissor jack pin report here\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#pin-design-reccommendations",
+    "href": "projects/scissor_jack/index.html#pin-design-reccommendations",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Pin Design Reccommendations",
+    "text": "Pin Design Reccommendations\nIn order to determine the initial stresses on the scissor jack pin, we first simplified the geometry of the pin slightly using SpaceClaim. Then, we followed these steps using the ANSYS software:\n\nApplied relevant boundary conditions\nSelected correct material properties (in this case, those of structural steel)\nCreated an effective mesh using the automatic mesh and manual refinement\nApplied the mesh convergence tool to ensure our mesh was sufficient\nValidated our model using simple hand calculation\n\nThe generated stress plot following these steps is shown in Figure 1.\n\nTo improve the part, we wanted to increase the safety factor, so we aimed to reduce the maximum bending stress experienced by the pin. Since stress is inversely proportional to the cross-sectional area, we decided to increase the pin’s cross-sectional area to lower the bending stress. We focused on bending stress because it was identified as the largest contributing factor to potential failure.\nTwo critical regions were identified as likely to experience the highest bending moments: the center of the part, and the location near the fillet, where there is a change in cross section. To compare these regions, we analyzed the bending moments using calculations that can be found in the completed report. These calculations communicated that an increase of the smaller diameter of the pin to 0.785 inches would increase the safety factor of the part from 0.58 to 2. The stress from the design change is shown in Figure 2.\n\nIf we were to make additional design changes, we would focus on strengthening the pin, since it is the component that limits the allowable load. We could increase its diameter even more or use a higher-strength material to raise the safe operating load. We would also aim to reduce stress concentrations by adding larger fillets, which would help lower peak stresses in critical areas. These changes together would allow the jack to safely support higher loads while maintaining our factor of safety of 2.\nView the complete scissor jack pin report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#scissor",
+    "href": "projects/scissor_jack/index.html#scissor",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Scissor",
+    "text": "Scissor\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#scissor-jack-design",
+    "href": "projects/scissor_jack/index.html#scissor-jack-design",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Scissor Jack Design",
+    "text": "Scissor Jack Design\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#scissor-jack-design-optimization",
+    "href": "projects/scissor_jack/index.html#scissor-jack-design-optimization",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Scissor Jack Design Optimization",
+    "text": "Scissor Jack Design Optimization\nThe objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a 2,000 lb vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a Python-based computational model to iterate through the design space.\nThe model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.\n\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#project-overview-1",
+    "href": "projects/scissor_jack/index.html#project-overview-1",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Project Overview",
+    "text": "Project Overview\nThe objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards."
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#pin-design-recommendations",
+    "href": "projects/scissor_jack/index.html#pin-design-recommendations",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Pin Design Recommendations",
+    "text": "Pin Design Recommendations\nTo determine the baseline stress distribution, we simplified the pin geometry using SpaceClaim and performed a static structural analysis within ANSYS. The simulation was executed through the following methodology:\n\nBoundary Conditions: Applied fixed supports and load vectors to simulate real-world vehicle lifting.\nMaterial Properties: Assigned structural steel properties to the geometry.\nMeshing & Refinement: Generated an initial automatic mesh followed by manual refinement in high-stress regions.\nValidation: Utilized a mesh convergence tool and validated the results against closed-form hand calculations.\n\nThe resulting von Mises stress distribution is shown in Figure 1.\n\nTo improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.\nAnalysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to 0.785 inches would raise the \\(FS\\) from 0.58 to 2.0. The updated stress profile is shown in Figure 2.\n\nFurther optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent \\(FS \\ge 2\\).\nView the complete scissor jack pin report here"
+  },
+  {
+    "objectID": "projects/scissor_jack/index.html#scissor-jack-design-optimization-1",
+    "href": "projects/scissor_jack/index.html#scissor-jack-design-optimization-1",
+    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "section": "Scissor Jack Design Optimization",
+    "text": "Scissor Jack Design Optimization\nThe objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a 2,000 lb vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a Python-based computational model to iterate through the design space.\nThe model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.\n\nView the complete scissor jack design report here"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scissor Jack – Jordan Patten Hardy</title>
+<title>The Stress of Support: A Finite Element Analysis of Scissor Jack Stability – Jordan Patten Hardy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -120,15 +149,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#pin-design-recommendations" id="toc-pin-design-recommendations" class="nav-link" data-scroll-target="#pin-design-recommendations">Pin Design Recommendations</a></li>
+  <li><a href="#scissor-jack-design-optimization" id="toc-scissor-jack-design-optimization" class="nav-link" data-scroll-target="#scissor-jack-design-optimization">Scissor Jack Design Optimization</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Scissor Jack</h1>
+<h1 class="title">The Stress of Support: A Finite Element Analysis of Scissor Jack Stability</h1>
 </div>
 
 
@@ -145,8 +182,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using <strong>Finite Element Analysis (FEA)</strong>, we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards.</p>
+</section>
+<section id="pin-design-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="pin-design-recommendations">Pin Design Recommendations</h2>
+<p>To determine the baseline stress distribution, we simplified the pin geometry using <strong>SpaceClaim</strong> and performed a static structural analysis within <strong>ANSYS</strong>. The simulation was executed through the following methodology:</p>
+<ul>
+<li><strong>Boundary Conditions:</strong> Applied fixed supports and load vectors to simulate real-world vehicle lifting.</li>
+<li><strong>Material Properties:</strong> Assigned structural steel properties to the geometry.</li>
+<li><strong>Meshing &amp; Refinement:</strong> Generated an initial automatic mesh followed by manual refinement in high-stress regions.</li>
+<li><strong>Validation:</strong> Utilized a mesh convergence tool and validated the results against closed-form hand calculations.</li>
+</ul>
+<p>The resulting von Mises stress distribution is shown in Figure 1.</p>
+<p><img src="plot1.png" class="img-fluid"></p>
+<p>To improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.</p>
+<p>Analysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to <strong>0.785 inches</strong> would raise the <span class="math inline">\(FS\)</span> from <strong>0.58 to 2.0</strong>. The updated stress profile is shown in Figure 2.</p>
+<p><img src="plot2.png" class="img-fluid"></p>
+<p>Further optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent <span class="math inline">\(FS \ge 2\)</span>.</p>
+<p>View the complete scissor jack pin report <a href="jack_pin.pdf">here</a></p>
+</section>
+<section id="scissor-jack-design-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="scissor-jack-design-optimization">Scissor Jack Design Optimization</h2>
+<p>The objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a <strong>2,000 lb</strong> vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a <strong>Python-based computational model</strong> to iterate through the design space.</p>
+<p>The model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.</p>
+<p><img src="jack_design.png" class="img-fluid"></p>
+<p>View the complete scissor jack design report <a href="jack_analysis.pdf">here</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <hr>
