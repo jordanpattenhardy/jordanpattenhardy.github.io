@@ -17,4 +17,5 @@ I chose to design a hypothetical LEGO architecture set inspired by the Bank of A
 
 After developing an assembly plan (included in the complete documentation), I opened an Assembly Studio in Onshape and began construction. Using the configuration generator, I inserted the required pieces and sourced any special, non-rectangular elements from a provided database. I especially enjoyed this project as it allowed me to merge structured engineering design with creativity---bringing my inner child to life.
 
+
 View the complete documentation [here](structure_docs.pdf)
