@@ -4,10 +4,10 @@ image: pin_pic.png
 ---
 
 ## Project Overview
-The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using **Finite Element Analysis (FEA)**, we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards.
+The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards.
 
 ## Pin Design Recommendations
-To determine the baseline stress distribution, we simplified the pin geometry using **SpaceClaim** and performed a static structural analysis within **ANSYS**. The simulation was executed through the following methodology:
+To determine the baseline stress distribution, we simplified the pin geometry using *SpaceClaim* and performed a static structural analysis within *ANSYS*. The simulation was executed through the following methodology:
 
 * **Boundary Conditions:** Applied fixed supports and load vectors to simulate real-world vehicle lifting.
 * **Material Properties:** Assigned structural steel properties to the geometry.
@@ -20,16 +20,16 @@ The resulting von Mises stress distribution is shown in Figure 1.
 
 To improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.
 
-Analysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to **0.785 inches** would raise the $FS$ from **0.58 to 2.0**. The updated stress profile is shown in Figure 2.
+Analysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to 0.785 inches would raise the factor of safety from 0.58 to 2.0. The updated stress profile is shown in Figure 2.
 
 ![](plot2.png)
 
-Further optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent $FS \ge 2$.
+Further optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent factor of safety greater than or equal to 2.
 
 View the complete scissor jack pin report [here](jack_pin.pdf)
 
 ## Scissor Jack Design Optimization
-The objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a **2,000 lb** vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a **Python-based computational model** to iterate through the design space.
+The objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a 2,000 lb vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a Python-based computational model to iterate through the design space.
 
 The model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.
 

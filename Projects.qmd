@@ -17,6 +17,7 @@ listing:
   sort: false
   
 ---
+## Past Projects
 To view each project's details, click the image. 
 
 ::: {#my-project-grid}
@@ -27,5 +28,5 @@ Current Projects:
 
 ---
 <div style="text-align: center;">
-  View my current [portfolio (PDF)](HardyPortfolio2025.pdf)
+  View my current [portfolio (PDF)](HardyPortfolio2026.pdf)
 </div>

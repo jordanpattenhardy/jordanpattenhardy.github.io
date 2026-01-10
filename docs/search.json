@@ -25,7 +25,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\nThe Mechanics of Mixing: Designing a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nThe Logic of Light: Creating Collision-Free Pathfinding Systems\n\n\n\n\n\n\n\n\n\n\n\n\nThe Bricks of Bangkok: Reconstructing a Robotic Icon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Power of Pneumatics: A Study in Reciprocating Motion\n\n\n\n\n\n\n\n\n\n\n\n\nThe Geometry of Gameplay: A Parametric Tribute to the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nThe Stress of Support: A Finite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nThe Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze\n\n\n\n\n\n\n\n\n\n\n\n\nThe Modulus of Merriment: Selection Science for the Simply Supported Swing\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
+    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
   },
   {
     "objectID": "projects/hand_mixer/index.html#project-overview",
@@ -522,7 +522,7 @@
     "href": "projects/scissor_jack/index.html#pin-design-recommendations",
     "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
     "section": "Pin Design Recommendations",
-    "text": "Pin Design Recommendations\nTo determine the baseline stress distribution, we simplified the pin geometry using SpaceClaim and performed a static structural analysis within ANSYS. The simulation was executed through the following methodology:\n\nBoundary Conditions: Applied fixed supports and load vectors to simulate real-world vehicle lifting.\nMaterial Properties: Assigned structural steel properties to the geometry.\nMeshing & Refinement: Generated an initial automatic mesh followed by manual refinement in high-stress regions.\nValidation: Utilized a mesh convergence tool and validated the results against closed-form hand calculations.\n\nThe resulting von Mises stress distribution is shown in Figure 1.\n\nTo improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.\nAnalysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to 0.785 inches would raise the \\(FS\\) from 0.58 to 2.0. The updated stress profile is shown in Figure 2.\n\nFurther optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent \\(FS \\ge 2\\).\nView the complete scissor jack pin report here"
+    "text": "Pin Design Recommendations\nTo determine the baseline stress distribution, we simplified the pin geometry using SpaceClaim and performed a static structural analysis within ANSYS. The simulation was executed through the following methodology:\n\nBoundary Conditions: Applied fixed supports and load vectors to simulate real-world vehicle lifting.\nMaterial Properties: Assigned structural steel properties to the geometry.\nMeshing & Refinement: Generated an initial automatic mesh followed by manual refinement in high-stress regions.\nValidation: Utilized a mesh convergence tool and validated the results against closed-form hand calculations.\n\nThe resulting von Mises stress distribution is shown in Figure 1.\n\nTo improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.\nAnalysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to 0.785 inches would raise the factor of safety from 0.58 to 2.0. The updated stress profile is shown in Figure 2.\n\nFurther optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent factor of safety greater than or equal to 2.\nView the complete scissor jack pin report here"
   },
   {
     "objectID": "projects/scissor_jack/index.html#scissor-jack-design-optimization-1",
@@ -530,5 +530,33 @@
     "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
     "section": "Scissor Jack Design Optimization",
     "text": "Scissor Jack Design Optimization\nThe objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a 2,000 lb vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a Python-based computational model to iterate through the design space.\nThe model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.\n\nView the complete scissor jack design report here"
+  },
+  {
+    "objectID": "Projects.html#past-projects",
+    "href": "Projects.html#past-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
+  },
+  {
+    "objectID": "About_Me.html#c",
+    "href": "About_Me.html#c",
+    "title": "About Me",
+    "section": "C",
+    "text": "C\nLink to my current resume"
+  },
+  {
+    "objectID": "About_Me.html#current",
+    "href": "About_Me.html#current",
+    "title": "About Me",
+    "section": "Current",
+    "text": "Current\nLink to my current resume"
+  },
+  {
+    "objectID": "About_Me.html#current-projects",
+    "href": "About_Me.html#current-projects",
+    "title": "About Me",
+    "section": "Current Projects",
+    "text": "Current Projects\n* Bench to Bedside SPO2 monitor\nLink to my current resume"
   }
 ]

@@ -11,7 +11,7 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
 
 * **Bachelor of Science:** Mechanical Engineering, *Brigham Young University*
     * GPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient
-    * **Coursework:** Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design, Dynamic Systems Modeling
+    * Coursework: Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design, Dynamic Systems Modeling
 
 ## RESEARCH EXPERIENCE
 * **Engineering for Global Health Research** | Provo, Utah (Apr 2025 – Present)
@@ -78,4 +78,5 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
     * The Society of Women Engineers (SWE)
     * The BYU Biomedical Engineering Association
 
-Link to my current [resume](HardyResume2025.pdf)
+
+Link to my current [resume](HardyResume2026.pdf)
