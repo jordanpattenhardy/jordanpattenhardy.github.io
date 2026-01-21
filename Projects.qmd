@@ -17,7 +17,6 @@ listing:
   sort: false
   
 ---
-## Past Projects
 To view each project's details, click the image. 
 
 ::: {#my-project-grid}
