@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-my-project-grid .list');
+    const listingTargetEl = window.document.querySelector('#listing-cad-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,91 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-my-project-grid'] = new List('listing-my-project-grid', options);
+    window['quarto-listings']['listing-cad-projects'] = new List('listing-cad-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-structural-analysis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-structural-analysis'] = new List('listing-structural-analysis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-robotics-mechatronics .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-robotics-mechatronics'] = new List('listing-robotics-mechatronics', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-computational-physics .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-computational-physics'] = new List('listing-computational-physics', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -180,8 +264,17 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#computer-aided-design" id="toc-computer-aided-design" class="nav-link active" data-scroll-target="#computer-aided-design">Computer-Aided Design</a></li>
+  <li><a href="#robotics-embedded-systems" id="toc-robotics-embedded-systems" class="nav-link" data-scroll-target="#robotics-embedded-systems">Robotics &amp; Embedded Systems</a></li>
+  <li><a href="#mechanical-systems-structural-optimization" id="toc-mechanical-systems-structural-optimization" class="nav-link" data-scroll-target="#mechanical-systems-structural-optimization">Mechanical Systems &amp; Structural Optimization</a></li>
+  <li><a href="#computational-physics-numerical-analysis" id="toc-computational-physics-numerical-analysis" class="nav-link" data-scroll-target="#computational-physics-numerical-analysis">Computational Physics &amp; Numerical Analysis</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -205,62 +298,12 @@ window.Quarto = {
 </header>
 
 
-<p>To view each project’s details, click the image.</p>
-<div id="listing-my-project-grid" class="quarto-listing quarto-listing-container-grid">
+<p>To view each project’s details, click the image. View my current <a href="HardyPortfolio2026.pdf">portfolio (PDF)</a>.</p>
+<section id="computer-aided-design" class="level2">
+<h2 class="anchored" data-anchor-id="computer-aided-design">Computer-Aided Design</h2>
+<div id="listing-cad-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767666102567" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
-<a href="./projects/hand_mixer/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/hand_mixer/mixer_upright.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Mechanics of Mixing: Designing a Next-Generation Hand Mixer
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767755429981" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./projects/light_robot/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/light_robot/robot.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Logic of Light: Creating Collision-Free Pathfinding Systems
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1768079379890" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
-<a href="./projects/robot_building/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/robot_building/structure.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Bricks of Bangkok: Reconstructing a Robotic Icon
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1767757278644" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
-<a href="./projects/pneumatic_engine/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/pneumatic_engine/engine.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Power of Pneumatics: A Study in Reciprocating Motion
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1767756942892" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777071311347" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
 <a href="./projects/nes_controller/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -268,59 +311,33 @@ The Power of Pneumatics: A Study in Reciprocating Motion
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-The Geometry of Gameplay: A Parametric Tribute to the NES Controller
+Computer Model of the NES Controller
 </h5>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1768018723885" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
-<a href="./projects/scissor_jack/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777071138887" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
+<a href="./projects/hand_mixer/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/scissor_jack/pin_pic.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/hand_mixer/mixer_upright.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-The Stress of Support: A Finite Element Analysis of Scissor Jack Stability
+Design of a Next-Generation Hand Mixer
 </h5>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1767737083225" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
-<a href="./projects/phil_stat/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1777071516154" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<a href="./projects/robot_building/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/phil_stat/groundhog.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/robot_building/structure.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1767750844988" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
-<a href="./projects/swingset_material/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/swingset_material/swingset.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Modulus of Merriment: Selection Science for the Simply Supported Swing
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1767888238486" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
-<a href="./projects/car_coast/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/car_coast/car_pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis
+CAD Construction of The Robot Building
 </h5>
 </div>
 </div></a>
@@ -328,12 +345,142 @@ The Dynamics of Deceleration: Determining Friction Coefficients from Numerical A
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
+<section id="robotics-embedded-systems" class="level2">
+<h2 class="anchored" data-anchor-id="robotics-embedded-systems">Robotics &amp; Embedded Systems</h2>
+<div id="listing-robotics-mechatronics" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777072085915" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<a href="./projects/mechatronics/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/mechatronics/swingset.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mini Mars Rover Autonomous Robot
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777071253342" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<a href="./projects/light_robot/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/light_robot/robot.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Light-Following Robot
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="mechanical-systems-structural-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="mechanical-systems-structural-optimization">Mechanical Systems &amp; Structural Optimization</h2>
+<div id="listing-structural-analysis" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777071476700" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
+<a href="./projects/scissor_jack/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/scissor_jack/pin_pic.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Finite Element Analysis of Scissor Jack Stability
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777071590315" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<a href="./projects/swingset_material/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/swingset_material/swingset.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Swingset Crossbeam Material Selection
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1777071395972" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<a href="./projects/pneumatic_engine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/pneumatic_engine/engine.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fabrication of a Pneumatic Engine
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="computational-physics-numerical-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="computational-physics-numerical-analysis">Computational Physics &amp; Numerical Analysis</h2>
+<div id="listing-computational-physics" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777071206773" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
+<a href="./projects/car_coast/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/car_coast/car_pic.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Calculation of Experimental Drag and Friction Coefficients from Coasting Car Data
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777071352269" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
+<a href="./projects/phil_stat/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/phil_stat/groundhog.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1777073590298" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<a href="./projects/fluids_traffic/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/fluids_traffic/swingset.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Computational Modeling of Traffic Using Fluids Flow Equations
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
 <div style="text-align: center;">
 <p>View my current <a href="HardyPortfolio2026.pdf">portfolio (PDF)</a></p>
 </div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <hr>

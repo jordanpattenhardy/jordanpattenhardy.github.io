@@ -1,5 +1,5 @@
 ---
-title: "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze"
+title: "Statistical Analysis of Punxsutawney Phil's Groundhog Day Predictions"
 image: groundhog.png   
 ---
 ## Project Overview

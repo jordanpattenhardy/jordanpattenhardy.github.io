@@ -1,31 +1,59 @@
 ---
 title: "Projects"
 listing:
-  id: my-project-grid
-  contents: 
-    - "hand_mixer/index.qmd" 
-    - "light_robot/index.qmd"
-    - "robot_building/index.qmd"
-    - "pneumatic_engine/index.qmd"
-    - "nes_controller/index.qmd"
-    - "scissor_jack/index.qmd"
-    - "phil_stat/index.qmd"
-    - "swingset_material/index.qmd"
-    - "car_coast/index.qmd"
-  type: grid
-  fields: [image, title]
-  sort: false
-  
+  - id: cad-projects
+    contents: 
+      - "nes_controller/index.qmd"
+      - "hand_mixer/index.qmd"
+      - "robot_building/index.qmd"
+    type: grid
+    fields: [image, title]
+    sort: false
+  - id: structural-analysis
+    contents: 
+      - "scissor_jack/index.qmd"
+      - "swingset_material/index.qmd"
+      - "pneumatic_engine/index.qmd"
+    type: grid
+    fields: [image, title]
+    sort: false
+  - id: robotics-mechatronics
+    contents: 
+      - "mechatronics/index.qmd"
+      - "light_robot/index.qmd"
+    type: grid
+    fields: [image, title]
+    sort: false
+  - id: computational-physics
+    contents: 
+      - "car_coast/index.qmd"
+      - "phil_stat/index.qmd"
+      - "fluids_traffic/index.qmd"
+    type: grid
+    fields: [image, title]
+    sort: false
 ---
-To view each project's details, click the image. 
 
-::: {#my-project-grid}
+To view each project's details, click the image. View my current [portfolio (PDF)](HardyPortfolio2026.pdf).
+
+## Computer-Aided Design
+::: {#cad-projects}
+:::
+
+## Robotics & Embedded Systems
+::: {#robotics-mechatronics}
+:::
+
+## Mechanical Systems & Structural Optimization
+::: {#structural-analysis}
+:::
+
+## Computational Physics & Numerical Analysis
+::: {#computational-physics}
 :::
 
 ---
-Current Projects: 
 
----
 <div style="text-align: center;">
   View my current [portfolio (PDF)](HardyPortfolio2026.pdf)
 </div>

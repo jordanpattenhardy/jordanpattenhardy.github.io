@@ -1,5 +1,5 @@
 ---
-title: "Swingset Crossbeam Material Selection"
+title: "Mini Mars Rover Autonomous Robot"
 image: swingset.jpg
 ---
 ## Project Overview

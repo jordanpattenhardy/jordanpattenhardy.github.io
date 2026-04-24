@@ -1,5 +1,5 @@
 ---
-title: "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability"
+title: "Finite Element Analysis of Scissor Jack Stability"
 image: pin_pic.png
 ---
 

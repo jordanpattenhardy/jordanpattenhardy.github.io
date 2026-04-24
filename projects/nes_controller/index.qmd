@@ -1,5 +1,5 @@
 ---
-title: "The Geometry of Gameplay: A Parametric Tribute to the NES Controller"
+title: "Computer Model of the NES Controller"
 image: nes.png
 ---
 ## Project Overview

@@ -1,5 +1,5 @@
 ---
-title: "The Bricks of Bangkok: Reconstructing a Robotic Icon"
+title: "CAD Construction of The Robot Building"
 image: structure.png
 ---
 ## Project Overview

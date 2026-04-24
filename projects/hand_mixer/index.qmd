@@ -1,5 +1,5 @@
 ---
-title: "The Mechanics of Mixing: Designing a Next-Generation Hand Mixer"
+title: "Design of a Next-Generation Hand Mixer"
 image: mixer_upright.png
 ---
 

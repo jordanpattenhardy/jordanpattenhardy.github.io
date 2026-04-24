@@ -1,5 +1,5 @@
 ---
-title: "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis"
+title: "Calculation of Experimental Drag and Friction Coefficients from Coasting Car Data"
 image: car_pic.png
 ---
 

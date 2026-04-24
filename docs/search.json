@@ -16,7 +16,7 @@
   {
     "objectID": "projects/hand_mixer/index.html",
     "href": "projects/hand_mixer/index.html",
-    "title": "The Mechanics of Mixing: Designing a Next-Generation Hand Mixer",
+    "title": "Designing a Next-Generation Hand Mixer",
     "section": "",
     "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\nThe benchmark design for this next generation model is the SMEG Hand Mixer HMF01. After examining the reviews placed by consumers, it was clear that many features were well-loved, but others still had room for improvement. Based on these reviews and personal experience, some changes that I decided to make for the Next-Generation of the SMEG Hand Mixer include:\n\nAn eject button for taking the beaters out instead of an eject switch, allowing for easier access and a smoother eject process.\nAn included charger case so the cord doesn’t get in the way during use, transitioning the mixer to be powered by a rechargeable battery.\nAn included bowl rest located near the bottom back of the mixer so that a user can set the mixer on the edge of the bowl when not in use.\nA larger surface area on the ergonomic grip (a highly rated feature).\nAn included storage case (combined with charger case) so the user can easily keep track of attachments.\nA styling update, including a flatter handle that doesn’t connect back into the body at the back.\nModernization, including an updated button / screen interface.\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\nKey Features of Next-Gen Design\n\n\n\n\n\nThe next generation design also keeps recognizable and consumer approved features of the original design, namely:\n\nThe same approximate size\nThe smooth, retro look\nThe self-balancing design\nThe nine speed options and LED display with set timer\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\nAfter deciding what changes to make for the next generation design, I began sketching ideas to implement each design change. Once I had chosen a design, I moved into the 3D modeling phase.\n\n\n\n\n\n\n\nI began by sketching the steps for each part of the mixer. Then, using the parametric modeling platform Onshape, I created my model.\n\nMost parts in the assembly were created using a master model and offset surfaces.\nThe body of the master model was created with a revolve.\nThe handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nFinal Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThickness AnalysisInjection Molding Prep\n\n\n\n\n\n\n\nInterference Check Mechanical Clearances\n\n\n\n\n\n\n\nZebra AnalysisCurvature Continuity\n\n\n\n\n\nDuring the iterative modeling process, I conducted a series of computational validations to ensure manufacturing readiness:\n\nInterference Testing: Verified that all internal gear meshes and housing tolerances were intentional, preventing mechanical clashing.\nThickness Analysis: Confirmed constant wall thickness across the chassis to facilitate high-quality injection molding.\nZebra Striping: Evaluated surface continuity to ensure light reflections flow smoothly across the curves of the mixer.\n\n\n\n\n\n\n\n\n\n\nEngineering Drawings\n\n\n\n\nThe final step after hours of parametric modeling was to document my work. This includes the creation of engineering drawings and the complilation of a design package.\n\n\n\nView the complete documentation here"
   },
@@ -25,12 +25,12 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "To view each project’s details, click the image.\n\n\n\n\n\n\n\n\n\n\nThe Mechanics of Mixing: Designing a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nThe Logic of Light: Creating Collision-Free Pathfinding Systems\n\n\n\n\n\n\n\n\n\n\n\n\nThe Bricks of Bangkok: Reconstructing a Robotic Icon\n\n\n\n\n\n\n\n\n\n\n\n\nThe Power of Pneumatics: A Study in Reciprocating Motion\n\n\n\n\n\n\n\n\n\n\n\n\nThe Geometry of Gameplay: A Parametric Tribute to the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nThe Stress of Support: A Finite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nThe Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze\n\n\n\n\n\n\n\n\n\n\n\n\nThe Modulus of Merriment: Selection Science for the Simply Supported Swing\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis\n\n\n\n\n\nNo matching items\n\n\nView my current portfolio (PDF)"
+    "text": "To view each project’s details, click the image. View my current portfolio (PDF)."
   },
   {
     "objectID": "projects/hand_mixer/index.html#project-overview",
     "href": "projects/hand_mixer/index.html#project-overview",
-    "title": "The Mechanics of Mixing: Designing a Next-Generation Hand Mixer",
+    "title": "Designing a Next-Generation Hand Mixer",
     "section": "",
     "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nComparison between Current Generation Smeg Hand Mixer and Next Generation Design\n\n\n\n\nThe benchmark design for this next generation model is the SMEG Hand Mixer HMF01. After examining the reviews placed by consumers, it was clear that many features were well-loved, but others still had room for improvement. Based on these reviews and personal experience, some changes that I decided to make for the Next-Generation of the SMEG Hand Mixer include:\n\nAn eject button for taking the beaters out instead of an eject switch, allowing for easier access and a smoother eject process.\nAn included charger case so the cord doesn’t get in the way during use, transitioning the mixer to be powered by a rechargeable battery.\nAn included bowl rest located near the bottom back of the mixer so that a user can set the mixer on the edge of the bowl when not in use.\nA larger surface area on the ergonomic grip (a highly rated feature).\nAn included storage case (combined with charger case) so the user can easily keep track of attachments.\nA styling update, including a flatter handle that doesn’t connect back into the body at the back.\nModernization, including an updated button / screen interface.\n\n\n\n\n\n\n\nParts of Completed Assembly\n\n\n\n\n\n\n\nKey Features of Next-Gen Design\n\n\n\n\n\nThe next generation design also keeps recognizable and consumer approved features of the original design, namely:\n\nThe same approximate size\nThe smooth, retro look\nThe self-balancing design\nThe nine speed options and LED display with set timer\n\n\n\n\n\n\n\n\n\n\n\nIdeation Sketches\n\n\n\n\nAfter deciding what changes to make for the next generation design, I began sketching ideas to implement each design change. Once I had chosen a design, I moved into the 3D modeling phase.\n\n\n\n\n\n\n\nI began by sketching the steps for each part of the mixer. Then, using the parametric modeling platform Onshape, I created my model.\n\nMost parts in the assembly were created using a master model and offset surfaces.\nThe body of the master model was created with a revolve.\nThe handle was formed using a complex loft that follows a guide curve.\n\n\n\n\n\n\nFinal Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThickness AnalysisInjection Molding Prep\n\n\n\n\n\n\n\nInterference Check Mechanical Clearances\n\n\n\n\n\n\n\nZebra AnalysisCurvature Continuity\n\n\n\n\n\nDuring the iterative modeling process, I conducted a series of computational validations to ensure manufacturing readiness:\n\nInterference Testing: Verified that all internal gear meshes and housing tolerances were intentional, preventing mechanical clashing.\nThickness Analysis: Confirmed constant wall thickness across the chassis to facilitate high-quality injection molding.\nZebra Striping: Evaluated surface continuity to ensure light reflections flow smoothly across the curves of the mixer.\n\n\n\n\n\n\n\n\n\n\nEngineering Drawings\n\n\n\n\nThe final step after hours of parametric modeling was to document my work. This includes the creation of engineering drawings and the complilation of a design package.\n\n\n\nView the complete documentation here"
   },
@@ -39,21 +39,21 @@
     "href": "About_Me.html#skills-and-achievements",
     "title": "About Me",
     "section": "SKILLS AND ACHIEVEMENTS",
-    "text": "SKILLS AND ACHIEVEMENTS\n\n\n\nSoftware & Tools\n\nOnshape\nSolidWorks\nPython\nC++\nLaTeX\n\nAnsys Workbench\nMATLAB\nMicrosoft Office\n\n\n\nTechnical Skills\n\nMechanical design\nComputer-aided modeling\nTechnical & project documentation\nData analysis\nInterdisciplinary communication\n\n\n\n\n\nCertifications\n\nBYU Weidman Center Leadership Certificate (Expected 2027)\nSpanish Language Certificate (Expected 2027)\n\n\n\nAwards/Activities\n\nBYU Engineering Together Research Mentorship Award\nCrocker Innovation Fellow (2026)\n\nCollaborating on an interdisciplinary team to develop an IoT (Internet of Things) solution for a real-world problem\n\nProfessional Memberships:\n\nThe American Society of Mechanical Engineers (ASME)\nThe Society of Women Engineers (SWE)\nThe BYU Biomedical Engineering Association\n\n\nLink to my current resume"
+    "text": "SKILLS AND ACHIEVEMENTS\n\n\n\nSoftware & Tools\n\nOnshape\nSolidWorks\nPython\nC++\nLaTeX\n\nAnsys Workbench\nMATLAB\nMicrosoft Office\n\n\n\nTechnical Skills\n\nMechanical design\nEmbedded systems\nComputer-aided modeling\nTechnical & project documentation\nData analysis\nInterdisciplinary communication\n\n\n\n\n\nCertifications\n\nBYU Weidman Center Leadership Certificate (Expected 2027)\nSpanish Language Certificate (Expected 2027)\n\n\n\nAwards/Activities\n\nBYU Engineering Together Research Mentorship Award\nCrocker Innovation Fellow (2026)\n\nCollaborating on an interdisciplinary team to develop an IoT (Internet of Things) solution for a real-world problem\n\nProfessional Memberships:\n\nThe BYU Biomedical Engineering Association (Industry Committee Lead)\nThe American Society of Mechanical Engineers (ASME, member)\nThe Society of Women Engineers (SWE, member)\n\n\nLink to my current resume"
   },
   {
     "objectID": "About_Me.html#education",
     "href": "About_Me.html#education",
     "title": "About Me",
     "section": "EDUCATION",
-    "text": "EDUCATION\n\nBachelor of Science: Mechanical Engineering, Brigham Young University\n\nGPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient\nCoursework: Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer (Winter 2026), Fluid Dynamics (Winter 2026), Computer Aided Design, Dynamic Systems Modeling"
+    "text": "EDUCATION\n\nBachelor of Science: Mechanical Engineering, Brigham Young University\n\nGPA 3.96 | Herbert V. and Berniece B. Kramer Scholarship Recipient\nCoursework: Manufacturing Processes, Materials Science, Thermodynamics, Heat Transfer, Fluid Dynamics, Computer Aided Design, Dynamic Systems Modeling, Mechatronics"
   },
   {
     "objectID": "About_Me.html#research-experience",
     "href": "About_Me.html#research-experience",
     "title": "About Me",
     "section": "RESEARCH EXPERIENCE",
-    "text": "RESEARCH EXPERIENCE\n\nEngineering for Global Health Research | Provo, Utah (Apr 2025 – Present)\n\nDeveloping sustainable medical technologies for resource-limited healthcare settings\nConducting technical reviews of the global health landscape\n\nDisaster Relief and Mitigation Research | Provo, Utah (Aug 2024 – Apr 2025)\n\nOptimized emergency response systems using social impact diffusion models\nCoauthored a published paper for the ASME IDETC 2025 conference\nDelivered a technical presentation on a data-driven disaster relief system optimization\n\n\nLearn more about BYU’s Design Exploration Research Lab work: design.byu.edu"
+    "text": "RESEARCH EXPERIENCE\n\nEngineering for Global Health Research | Provo, Utah (Apr 2025 – Present)\n\nLead mechanical design of a non-invasive perfusion monitor with integrated sensors\nConduct technical reviews and prepare documentation for research proposals\n\nDisaster Relief and Mitigation Research | Provo, Utah (Aug 2024 – Apr 2025)\n\nOptimized emergency response systems using social impact diffusion models\nCoauthored a published paper for the ASME IDETC 2025 conference\nDelivered a technical presentation on a data-driven disaster relief system optimization\n\n\nLearn more about BYU’s Design Exploration Research Lab work: design.byu.edu"
   },
   {
     "objectID": "About_Me.html#work-volunteer-experience",
@@ -67,7 +67,7 @@
     "href": "About_Me.html#work-experience",
     "title": "About Me",
     "section": "WORK EXPERIENCE",
-    "text": "WORK EXPERIENCE\n\nTeaching Assistant-Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
+    "text": "WORK EXPERIENCE\n\nMechanical Engineer, Crocker Innovation Fellowship | Provo, Utah (Dec 2025 - Present)\n\nCollaborate with an interdisciplinary team to develop a food allergen detection device\nDevelop and execute test protocols to validate device performance\nPrototype electromechanical systems using C++ firmware and custom circuitry, increasing detection accuracy by 15% through noise reduction\n\nTeaching Assistant-Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
   },
   {
     "objectID": "About_Me.html#section",
@@ -121,14 +121,14 @@
   {
     "objectID": "projects/phil_stat/index.html",
     "href": "projects/phil_stat/index.html",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "",
     "text": "The aim of this project was to evaluate the accuracy of Punxsutawney Phil’s Groundhog Day predictions using historical weather data. Specifically, it investigates whether Phil’s shadow-based forecasts correlate with actual changes in average temperatures between February and March.\n\n\n\n\nPhoto by Camerauthor Photos on Unsplash"
   },
   {
     "objectID": "projects/swingset_material/index.html",
     "href": "projects/swingset_material/index.html",
-    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "title": "Swingset Crossbeam Material Selection",
     "section": "",
     "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
   },
@@ -149,14 +149,14 @@
   {
     "objectID": "projects/pneumatic_engine/index.html",
     "href": "projects/pneumatic_engine/index.html",
-    "title": "The Power of Pneumatics: A Study in Reciprocating Motion",
+    "title": "Fabrication of a Pneumatic Engine",
     "section": "",
     "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nCompleted Pneumatic Engine"
   },
   {
     "objectID": "projects/pneumatic_engine/index.html#project-overview",
     "href": "projects/pneumatic_engine/index.html#project-overview",
-    "title": "The Power of Pneumatics: A Study in Reciprocating Motion",
+    "title": "Fabrication of a Pneumatic Engine",
     "section": "",
     "text": "This project aimed to modernize an existing design by enhancing its appearance and implementing mechanical improvements for better functionality.\n\n\n\nCompleted Pneumatic Engine"
   },
@@ -198,7 +198,7 @@
   {
     "objectID": "projects/phil_stat/index.html#project-overview",
     "href": "projects/phil_stat/index.html#project-overview",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "",
     "text": "The aim of this project was to evaluate the accuracy of Punxsutawney Phil’s Groundhog Day predictions using historical weather data. Specifically, it investigates whether Phil’s shadow-based forecasts correlate with actual changes in average temperatures between February and March.\n\n\n\n\nPhoto by Camerauthor Photos on Unsplash"
   },
@@ -212,35 +212,35 @@
   {
     "objectID": "projects/phil_stat/index.html#methods",
     "href": "projects/phil_stat/index.html#methods",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "Methods",
     "text": "Methods\nTo test this hypothesis, a one-sample hypothesis test for proportions was used. The null hypothesis was that Phil is correct less than or equal to 50% of the time. The alternative hypothesis was that he is correct more than 50% of the time. I set conditions for a “correct” prediction and analyzed the data under four different thresholds for defining winter (a difference of 0°C (no change), the mean of the distribution (7.88℉ increase), the median (7.96℉ increase), the 25th percentile (5.29℉ increase) ). Using if statements in Python, I determined whether each prediction was correct according to the defined threshold, and calculated the proportion of correct predictions for each method. For hypothesis testing and confidence intervals, I used norm.cdf or norm.ppf from the scipy.stats library."
   },
   {
     "objectID": "projects/phil_stat/index.html#results",
     "href": "projects/phil_stat/index.html#results",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "Results",
     "text": "Results\nResults for the evaluation of the proportion of correct predictions for each definition of winter are shown in Figure 1.\n\nAfter calculating the proportion of correct predictions, I used a one-sample hypothesis test for proportions, with hypotheses outlined in the methods section. The results are outlined in Table 1, along with the results for a 95% confidence interval for the true population proportion of accurate predictions. None of the p values for the proportion of predictions were statistically significant at a level of 𝛂 = 0.05.\n\n\n\nTable 1: A summary of statistics obtained from a hypothesis test for proportions and a computed confidence interval for a population proportion of correct predictions made by Punxsutawney Phil.\n\n\n\n\n\n\n\n\n\n\n\nMethod\n95% Confidence Interval\nP Value\nStatistically Significant (\\(𝛂 = 0.05\\))\n\n\n\n\nMean/Median\n\\([0.425, 0.575]\\)\n\\(0.5\\)\nNo\n\n\n25th Percentile\n\\([0.263, 0.404]\\)\n\\(0.999\\)\nNo\n\n\nDifference of Zero\n\\([0.096, 0.204]\\)\n\\(1.0\\)\nNo"
   },
   {
     "objectID": "projects/phil_stat/index.html#discussion",
     "href": "projects/phil_stat/index.html#discussion",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "Discussion",
     "text": "Discussion\nBecause none of the p values are large, we have no basis for rejecting our null hypothesis. Therefore, we fail to reject the null hypothesis, and cannot conclude that Phil’s predictions are correct more than 50 percent of the time. It appears that Punxsutawney Phil’s predictions do not significantly outperform random chance under any of the thresholds tested. While the folklore is entertaining and charming, the data suggests that Phil may not be a reliable source of meteorological insight. Similarly, the calculated confidence intervals provide a region in which we can be 95% confident that the true population proportion of correct predictions lies.\nView the complete report here"
   },
   {
     "objectID": "projects/phil_stat/index.html#introduction",
     "href": "projects/phil_stat/index.html#introduction",
-    "title": "The Marmot’s Margin of Error: Quantifying the Groundhog’s Gaze",
+    "title": "Statistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions",
     "section": "Introduction",
     "text": "Introduction\nEvery year on February 2nd, thousands gather in Punxsutawney, Pennsylvania, awaiting the spring forecast from the world’s most famous groundhog, Punxsutawney Phil. According to tradition, if Phil sees his shadow, six more weeks of winter are expected. However, if he doesn’t see his shadow, an early spring is on the way.\nWhile the event is a beloved cultural ritual, many question the accuracy of Phil’s predictions. Is there any truth behind the shadow-based forecasting, or is it simply superstition? To investigate, I analyzed historical average temperature data alongside Phil’s annual predictions to evaluate whether his forecasts align with actual weather patterns. Leaning toward belief rather than skepticism, I hypothesized that Punxsutawney Phil is correct more than half of the time."
   },
   {
     "objectID": "projects/swingset_material/index.html#project-overview",
     "href": "projects/swingset_material/index.html#project-overview",
-    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "title": "Swingset Crossbeam Material Selection",
     "section": "",
     "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
   },
@@ -254,21 +254,21 @@
   {
     "objectID": "projects/swingset_material/index.html#results-and-final-recommendation",
     "href": "projects/swingset_material/index.html#results-and-final-recommendation",
-    "title": "The Modulus of Merriment: Selection Science for the Simply Supported Swing",
+    "title": "Swingset Crossbeam Material Selection",
     "section": "Results and Final Recommendation",
     "text": "Results and Final Recommendation"
   },
   {
     "objectID": "projects/light_robot/index.html",
     "href": "projects/light_robot/index.html",
-    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "title": "Light-Following Robot",
     "section": "",
     "text": "The aim of this project was to build a robot capable of following a light source in a dark environment with integrated collision protection and servo control.\n\n\n\nVideo\nRuntime Video"
   },
   {
     "objectID": "projects/light_robot/index.html#project-overview",
     "href": "projects/light_robot/index.html#project-overview",
-    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "title": "Light-Following Robot",
     "section": "",
     "text": "The aim of this project was to build a robot capable of following a light source in a dark environment with integrated collision protection and servo control.\n\n\n\nVideo\nRuntime Video"
   },
@@ -282,21 +282,21 @@
   {
     "objectID": "projects/light_robot/index.html#key-aspects-of-the-project",
     "href": "projects/light_robot/index.html#key-aspects-of-the-project",
-    "title": "The Logic of Light: Creating Collision-Free Pathfinding Systems",
+    "title": "Light-Following Robot",
     "section": "Key aspects of the project",
     "text": "Key aspects of the project\n\nCircuit Design: Assembled and tested circuits using resistors, capacitors, voltage sources (battery), DC motors, and a breadboard.\nEmbedded Systems & Control Logic: Programmed an Arduino and used a finite state machine to control the robot’s behavior.\nMechanical Problem Solving: Diagnosed and resolved wheel slippage by adding rubber bands for traction, improving mobility and performance."
   },
   {
     "objectID": "projects/nes_controller/index.html",
     "href": "projects/nes_controller/index.html",
-    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "title": "Computer Model of NES Controller",
     "section": "",
     "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a fully parametric CAD model. It prioritized dimensional accuracy and adaptability for future design changes.\n\n\n\nCompleted Assembly"
   },
   {
     "objectID": "projects/nes_controller/index.html#project-overview",
     "href": "projects/nes_controller/index.html#project-overview",
-    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "title": "Computer Model of NES Controller",
     "section": "",
     "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a fully parametric CAD model. It prioritized dimensional accuracy and adaptability for future design changes.\n\n\n\nCompleted Assembly"
   },
@@ -310,21 +310,21 @@
   {
     "objectID": "projects/nes_controller/index.html#project-details",
     "href": "projects/nes_controller/index.html#project-details",
-    "title": "The Geometry of Gameplay: A Parametric Tribute to the NES Controller",
+    "title": "Computer Model of NES Controller",
     "section": "Project Details",
     "text": "Project Details\n\nThe controller was modeled using engineering drawings drawn by C. A. Mattson.\nCAD operations used in the completion of this project include lofts, revolves, sweeps, and patterns.\nI modeled many of the parts, including the Start/Select Buttons, the A/B Buttons, the D-Pad, the Top and Bottom covers (with supports and rib bosses) and the PCB. Other parts, such as the charging cord, were provided as part of the project.\n\n\n\n\nExploded View Assemly"
   },
   {
     "objectID": "projects/robot_building/index.html",
     "href": "projects/robot_building/index.html",
-    "title": "The Bricks of Bangkok: Reconstructing a Robotic Icon",
+    "title": "CAD Construction of The Robot Building",
     "section": "",
     "text": "This project focused on designing and constructing an original architectural model using LEGO elements. It involved developing a configuration generator to explore design variations, followed by extensive assembly to bring the final concept to life. All work was done on the Onshape CAD platform."
   },
   {
     "objectID": "projects/robot_building/index.html#project-overview",
     "href": "projects/robot_building/index.html#project-overview",
-    "title": "The Bricks of Bangkok: Reconstructing a Robotic Icon",
+    "title": "CAD Construction of The Robot Building",
     "section": "",
     "text": "This project focused on designing and constructing an original architectural model using LEGO elements. It involved developing a configuration generator to explore design variations, followed by extensive assembly to bring the final concept to life. All work was done on the Onshape CAD platform."
   },
@@ -359,14 +359,14 @@
   {
     "objectID": "projects/pneumatic_engine/index.html#the-process",
     "href": "projects/pneumatic_engine/index.html#the-process",
-    "title": "The Power of Pneumatics: A Study in Reciprocating Motion",
+    "title": "Fabrication of a Pneumatic Engine",
     "section": "The Process",
     "text": "The Process\nAs part of a four-person team tasked with improving an engine design, I proposed and implemented modifications to enhance the manufacturability of a pneumatic engine assembly. We developed detailed process sheets for each component, specifying appropriate tooling and machining operations, and manufactured components using a range of techniques including CNC milling, manual turning, sand casting, and powder metallurgy.\n\n\n\nVideo\nRuntime Video\n\n\n\nOnce all we had manufactured all the components, the engine was fully assembled and tested. As a result of our team’s design modifications, the engine operated at a lower PSI than any of the other team’s engines built from the same initial design and specifications. Afterwards, we compiled a prototyping package, including detailed engineering drawings and process sheets for each part.\n\n\n\n\nExample Documentation\n\n\n\nWe also compiled a comprehensive design report, which included documentation of implemented design changes and recommendations for future improvements given investment casting and CNC Mill/Lathe as process options. Then, we created more engineerings drawings that documented the changes we suggested for each part for future iterations. These new models and drawings were created using SolidWorks.\n\nView the complete prototyping package here\nView the complete design report here"
   },
   {
     "objectID": "projects/robot_building/index.html#lego-configuration-generator",
     "href": "projects/robot_building/index.html#lego-configuration-generator",
-    "title": "The Bricks of Bangkok: Reconstructing a Robotic Icon",
+    "title": "CAD Construction of The Robot Building",
     "section": "Lego Configuration Generator",
     "text": "Lego Configuration Generator\nThe creation of the configuration generator allowed for ease and simplicity of assembly. Changing the settings made it possible to create LEGO bricks of any size as needed.\n\n\n\nLEGO Configuration Generator"
   },
@@ -380,42 +380,42 @@
   {
     "objectID": "projects/robot_building/index.html#the-robot-building-cad-modeling",
     "href": "projects/robot_building/index.html#the-robot-building-cad-modeling",
-    "title": "The Bricks of Bangkok: Reconstructing a Robotic Icon",
+    "title": "CAD Construction of The Robot Building",
     "section": "The Robot Building-CAD Modeling",
     "text": "The Robot Building-CAD Modeling\nI chose to design a hypothetical LEGO architecture set inspired by the Bank of Asia in Bangkok, Thailand—affectionately known as The Robot Building. The structure appealed to me because of its unique shape and fun appearance.\n\n\n\nIllustration of the stages of the LEGO structure design\n\n\nAfter developing an assembly plan (included in the complete documentation), I opened an Assembly Studio in Onshape and began construction. Using the configuration generator, I inserted the required pieces and sourced any special, non-rectangular elements from a provided database. I especially enjoyed this project as it allowed me to merge structured engineering design with creativity—bringing my inner child to life.\nView the complete documentation here"
   },
   {
     "objectID": "projects/car_coast/index.html",
     "href": "projects/car_coast/index.html",
-    "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
+    "title": "Calculation Experimental Drag and Friction Coefficients from Coasting Car Data",
     "section": "",
     "text": "When a car moves without engine power, it gradually slows due to environmental forces like gravity, friction, and air resistance. By examining this natural deceleration, we can learn how these forces affect vehicle motion. In this project, data from a 2016 Aston Martin DB9 coasting on a gentle incline was analyzed to estimate friction and drag effects. The results provide insight into how external forces influence vehicle performance during real-world motion.\n\n\n\n\nPhoto by Roberto Nickson on Unsplash"
   },
   {
     "objectID": "projects/car_coast/index.html#project-overview",
     "href": "projects/car_coast/index.html#project-overview",
-    "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
+    "title": "Calculation Experimental Drag and Friction Coefficients from Coasting Car Data",
     "section": "",
     "text": "When a car moves without engine power, it gradually slows due to environmental forces like gravity, friction, and air resistance. By examining this natural deceleration, we can learn how these forces affect vehicle motion. In this project, data from a 2016 Aston Martin DB9 coasting on a gentle incline was analyzed to estimate friction and drag effects. The results provide insight into how external forces influence vehicle performance during real-world motion.\n\n\n\n\nPhoto by Roberto Nickson on Unsplash"
   },
   {
     "objectID": "projects/car_coast/index.html#the-process",
     "href": "projects/car_coast/index.html#the-process",
-    "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
+    "title": "Calculation Experimental Drag and Friction Coefficients from Coasting Car Data",
     "section": "The Process",
     "text": "The Process\nTo analyze the motion of a car coasting both uphill and downhill on an inclined plane, we began by constructing free-body diagrams for each scenario. These diagrams account for the force of gravity, the normal force, aerodynamic drag (\\(F_d\\)), and rolling friction (\\(F_r\\)). Using the free-body and corresponding kinetic diagrams, we derived the equations of motion by applying Newton’s second law in the direction of motion.\n\nAfter deriving the necessary equations, we followed these steps:\n\nNumerical Integration: Converted the second-order equations into a system of first-order ordinary differential equations (ODEs), solved using Python’s scipy.integrate.odeint.\nParameter Optimization: Performed a manual iterative fit of the drag coefficient \\(C_d\\) and the coefficient of kinetic friction \\(k\\) to align the simulated velocity curves with experimental “North” and “South” data sets.\nSensitivity Analysis: Conducted uncertainty quantification by introducing a \\(\\pm 5\\%\\) variation in final velocity (\\(v_f\\)) to establish confidence intervals for our fitted parameters."
   },
   {
     "objectID": "projects/car_coast/index.html#results",
     "href": "projects/car_coast/index.html#results",
-    "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
+    "title": "Calculation Experimental Drag and Friction Coefficients from Coasting Car Data",
     "section": "Results",
     "text": "Results\nThe best-fit parameters that matched the experimental data were \\(C_d = 0.3283\\) and \\(k = 0.0170\\). Using these values, the modeled curves closely aligned with the measured data, as shown in the velocity-time comparison."
   },
   {
     "objectID": "projects/car_coast/index.html#discussion",
     "href": "projects/car_coast/index.html#discussion",
-    "title": "The Dynamics of Deceleration: Determining Friction Coefficients from Numerical Analysis",
+    "title": "Calculation Experimental Drag and Friction Coefficients from Coasting Car Data",
     "section": "Discussion",
     "text": "Discussion\nThe coefficient of drag \\(C_d\\) primarily influences vehicle deceleration at higher speeds due to its quadratic relationship with velocity, making it more dominant during the early phase of coast-down. In contrast, the rolling friction coefficient \\(k\\) exerts a near-constant effect and is more significant at lower speeds.\nBecause of this, the effects of \\(C_d\\) and \\(k\\) can be distinguished by examining how quickly velocity drops early in the coast versus how it behaves near the end. However, there is still some flexibility—it is possible to slightly increase one parameter while decreasing the other and still achieve a visually similar fit. This limits the precision with which either parameter can be determined individually, a trade-off we quantified through our confidence interval analysis.\nView the complete report here"
   },
@@ -450,14 +450,14 @@
   {
     "objectID": "projects/scissor_jack/index.html",
     "href": "projects/scissor_jack/index.html",
-    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "title": "Finite Element Analysis of Scissor Jack Stability",
     "section": "",
     "text": "The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards."
   },
   {
     "objectID": "projects/scissor_jack/index.html#project-overview",
     "href": "projects/scissor_jack/index.html#project-overview",
-    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "title": "Finite Element Analysis of Scissor Jack Stability",
     "section": "",
     "text": "The objective of this project was to analyze the stresses and strains experienced by a scissor jack during standard operation. Using Finite Element Analysis (FEA), we identified critical stress concentrations on the pin and proposed geometric design changes to enhance structural integrity. Additionally, we developed an iterative computational model to optimize the weight and cost of the entire scissor jack assembly while maintaining rigorous safety standards."
   },
@@ -506,7 +506,7 @@
   {
     "objectID": "projects/scissor_jack/index.html#scissor-jack-design-optimization",
     "href": "projects/scissor_jack/index.html#scissor-jack-design-optimization",
-    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "title": "Finite Element Analysis of Scissor Jack Stability",
     "section": "Scissor Jack Design Optimization",
     "text": "Scissor Jack Design Optimization\nThe objective of this phase was to engineer a lightweight, cost-effective scissor jack capable of lifting a 2,000 lb vehicle load. After establishing safety constraints and target factors of safety for each failure mode (such as buckling and thread shear), we developed a Python-based computational model to iterate through the design space.\nThe model filtered thousands of combinations of link lengths, screw diameters, and material thicknesses to identify the most viable, mass-optimized solution. The final optimized design, which meets all geometric and safety criteria, is pictured below.\n\nView the complete scissor jack design report here"
   },
@@ -520,7 +520,7 @@
   {
     "objectID": "projects/scissor_jack/index.html#pin-design-recommendations",
     "href": "projects/scissor_jack/index.html#pin-design-recommendations",
-    "title": "The Stress of Support: A Finite Element Analysis of Scissor Jack Stability",
+    "title": "Finite Element Analysis of Scissor Jack Stability",
     "section": "Pin Design Recommendations",
     "text": "Pin Design Recommendations\nTo determine the baseline stress distribution, we simplified the pin geometry using SpaceClaim and performed a static structural analysis within ANSYS. The simulation was executed through the following methodology:\n\nBoundary Conditions: Applied fixed supports and load vectors to simulate real-world vehicle lifting.\nMaterial Properties: Assigned structural steel properties to the geometry.\nMeshing & Refinement: Generated an initial automatic mesh followed by manual refinement in high-stress regions.\nValidation: Utilized a mesh convergence tool and validated the results against closed-form hand calculations.\n\nThe resulting von Mises stress distribution is shown in Figure 1.\n\nTo improve the design, we sought to increase the Factor of Safety by reducing the maximum bending stress. Since bending stress is inversely proportional to the section modulus, we increased the pin’s cross-sectional area. We focused specifically on bending as it was identified as the primary failure mode.\nAnalysis revealed two critical regions prone to high bending moments: the center of the pin and the fillet transition near the change in cross-section. Calculations showed that increasing the smaller diameter of the pin to 0.785 inches would raise the factor of safety from 0.58 to 2.0. The updated stress profile is shown in Figure 2.\n\nFurther optimizations would include increasing the diameter further or selecting high-strength alloys to raise the allowable load. Additionally, implementing larger radii fillets would mitigate stress concentrations, allowing the jack to safely support higher loads while maintaining a consistent factor of safety greater than or equal to 2.\nView the complete scissor jack pin report here"
   },
@@ -558,5 +558,145 @@
     "title": "About Me",
     "section": "Current Projects",
     "text": "Current Projects\n* Bench to Bedside SPO2 monitor\nLink to my current resume"
+  },
+  {
+    "objectID": "projects/mechatronics/index.html",
+    "href": "projects/mechatronics/index.html",
+    "title": "Mini Mars Rover Autonomous Robot",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/mechatronics/index.html#project-overview",
+    "href": "projects/mechatronics/index.html#project-overview",
+    "title": "Mini Mars Rover Autonomous Robot",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/mechatronics/index.html#results-and-final-recommendation",
+    "href": "projects/mechatronics/index.html#results-and-final-recommendation",
+    "title": "Mini Mars Rover Autonomous Robot",
+    "section": "Results and Final Recommendation",
+    "text": "Results and Final Recommendation"
+  },
+  {
+    "objectID": "projects/heat_transfer/index.html",
+    "href": "projects/heat_transfer/index.html",
+    "title": "Swingset Crossbeam Material Selection",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/heat_transfer/index.html#project-overview",
+    "href": "projects/heat_transfer/index.html#project-overview",
+    "title": "Swingset Crossbeam Material Selection",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/heat_transfer/index.html#results-and-final-recommendation",
+    "href": "projects/heat_transfer/index.html#results-and-final-recommendation",
+    "title": "Swingset Crossbeam Material Selection",
+    "section": "Results and Final Recommendation",
+    "text": "Results and Final Recommendation"
+  },
+  {
+    "objectID": "Projects.html#computer-aided-design-simulation",
+    "href": "Projects.html#computer-aided-design-simulation",
+    "title": "Projects",
+    "section": "Computer-Aided Design & Simulation",
+    "text": "Computer-Aided Design & Simulation\n\n\n\n\n\n\n\n\n\n\nComputer Model of the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nDesign of a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nCAD Construction of The Robot Building\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#robotics-intelligent-systems",
+    "href": "Projects.html#robotics-intelligent-systems",
+    "title": "Projects",
+    "section": "Robotics & Intelligent Systems",
+    "text": "Robotics & Intelligent Systems\n\n\n\n\n\n\n\n\n\n\nMini Mars Rover Autonomous Robot\n\n\n\n\n\n\n\n\n\n\n\n\nLight-Following Robot\n\n\n\n\n\n\n\n\n\n\n\n\nFabrication of a Pneumatic Engine\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#computational-physics-numerical-analysis",
+    "href": "Projects.html#computational-physics-numerical-analysis",
+    "title": "Projects",
+    "section": "Computational Physics & Numerical Analysis",
+    "text": "Computational Physics & Numerical Analysis\n\n\n\n\n\n\n\n\n\n\nCalculation of Experimental Drag and Friction Coefficients from Coasting Car Data\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Analysis of Punxsutawney Phil’s Groundhog Day Predictions\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Modeling of Traffic Using Fluids Flow Equations\n\n\n\n\n\nNo matching items\n\n\n\nView my current portfolio (PDF)"
+  },
+  {
+    "objectID": "Projects.html#robotics-embedded-systems",
+    "href": "Projects.html#robotics-embedded-systems",
+    "title": "Projects",
+    "section": "Robotics & Embedded Systems",
+    "text": "Robotics & Embedded Systems\n\n\n\n\n\n\n\n\n\n\nMini Mars Rover Autonomous Robot\n\n\n\n\n\n\n\n\n\n\n\n\nLight-Following Robot\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#structural-analysis-material-selection",
+    "href": "Projects.html#structural-analysis-material-selection",
+    "title": "Projects",
+    "section": "Structural Analysis & Material Selection",
+    "text": "Structural Analysis & Material Selection\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#computer-aided-design",
+    "href": "Projects.html#computer-aided-design",
+    "title": "Projects",
+    "section": "Computer-Aided Design",
+    "text": "Computer-Aided Design\n\n\n\n\n\n\n\n\n\n\nComputer Model of the NES Controller\n\n\n\n\n\n\n\n\n\n\n\n\nDesign of a Next-Generation Hand Mixer\n\n\n\n\n\n\n\n\n\n\n\n\nCAD Construction of The Robot Building\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#material-selection",
+    "href": "Projects.html#material-selection",
+    "title": "Projects",
+    "section": "Material Selection",
+    "text": "Material Selection\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#material-selection-structural-analysis",
+    "href": "Projects.html#material-selection-structural-analysis",
+    "title": "Projects",
+    "section": "Material Selection & Structural Analysis",
+    "text": "Material Selection & Structural Analysis\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\n\n\n\n\n\n\n\nFabrication of a Pneumatic Engine\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#mechanical-systemsaterial-selection-structural-analysis",
+    "href": "Projects.html#mechanical-systemsaterial-selection-structural-analysis",
+    "title": "Projects",
+    "section": "Mechanical Systemsaterial Selection & Structural Analysis",
+    "text": "Mechanical Systemsaterial Selection & Structural Analysis\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\n\n\n\n\n\n\n\nFabrication of a Pneumatic Engine\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects.html#mechanical-systems-structural-analysis",
+    "href": "Projects.html#mechanical-systems-structural-analysis",
+    "title": "Projects",
+    "section": "Mechanical Systems & Structural Analysis",
+    "text": "Mechanical Systems & Structural Analysis\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\n\n\n\n\n\n\n\nFabrication of a Pneumatic Engine\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/fluids_traffic/index.html",
+    "href": "projects/fluids_traffic/index.html",
+    "title": "Computational Modeling of Traffic Using Fluids Flow EquationsA Fluids Approach to Traffic Flow: Computational Modeling of Congestion Dynamics",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/fluids_traffic/index.html#project-overview",
+    "href": "projects/fluids_traffic/index.html#project-overview",
+    "title": "Computational Modeling of Traffic Using Fluids Flow EquationsA Fluids Approach to Traffic Flow: Computational Modeling of Congestion Dynamics",
+    "section": "",
+    "text": "For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.\n\n\n\nPhoto by Dan Meyers on Unsplash"
+  },
+  {
+    "objectID": "projects/fluids_traffic/index.html#results-and-final-recommendation",
+    "href": "projects/fluids_traffic/index.html#results-and-final-recommendation",
+    "title": "Computational Modeling of Traffic Using Fluids Flow EquationsA Fluids Approach to Traffic Flow: Computational Modeling of Congestion Dynamics",
+    "section": "Results and Final Recommendation",
+    "text": "Results and Final Recommendation"
+  },
+  {
+    "objectID": "Projects.html#mechanical-systems-structural-optimization",
+    "href": "Projects.html#mechanical-systems-structural-optimization",
+    "title": "Projects",
+    "section": "Mechanical Systems & Structural Optimization",
+    "text": "Mechanical Systems & Structural Optimization\n\n\n\n\n\n\n\n\n\n\nFinite Element Analysis of Scissor Jack Stability\n\n\n\n\n\n\n\n\n\n\n\n\nSwingset Crossbeam Material Selection\n\n\n\n\n\n\n\n\n\n\n\n\nFabrication of a Pneumatic Engine\n\n\n\n\n\nNo matching items"
   }
 ]
