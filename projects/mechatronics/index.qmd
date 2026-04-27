@@ -1,14 +1,49 @@
 ---
 title: "Mini Mars Rover Autonomous Robot"
-image: swingset.jpg
+image: scrappy_main_photo_short.jpg
 ---
+
 ## Project Overview
+The goal of this project was to design and build an autonomous rover capable of completing a course with five distinct tasks placed at random locations. The engineering team consisted of four members, collectively responsible for the mechanical design, electrical systems, and programming of the robot.
 
-For this project, I needed to select a material for a swingset crossbeam. I modeled a swing set crossbeam as a simply supported beam under a center load to identify the materials that met a maximum deflection limit of 0.5 mm. I compared several materials for stiffness, weight, cost, and durability, then created a graph and table in Excel to visualize performance and determine the optimal material under given the design constraints.
+::: {style="text-align: left; margin-left: 20px;"}
 
-![Photo by [Dan Meyers](https://unsplash.com/@dmey503) on [Unsplash](https://unsplash.com/photos/swing-across-green-trees-R-GPpK7Th2M)](swingset.jpg){fig-align="center" width="100%"}
+![](old_scrappy.jpg){height="300px"}
 
-## Results and Final Recommendation      
+*An early iteration of our rover*
+:::
 
-<iframe src="swingset.pdf#toolbar=0&navpanes=0" width="75%" height="900px"></iframe>
 
+## Tasks
+* **Leave Lander and Line Follow**
+    The rover begins by exiting the lander and following a white line along the course. This was achieved using a QRD sensor array, which detects the rover’s position relative to the line and continuously adjusts its trajectory for accurate tracking.
+
+    ![](QRD_array.jpg){height="300px"}
+
+* **Sample Collection and Return**
+    The rover detects the sample collection station using an IR sensor and positions itself to receive a ping pong ball. It then transports the sample and deposits it into the correct return bin based on color. This system combines IR and ultrasonic sensors for detection, along with a custom-designed ball capture and release mechanism.
+
+    ![](sample_collect.jpg)
+    ![](sample_return.jpg)
+
+* **Canyon Navigation**
+    In a section without guiding lines and enclosed by walls, the rover must autonomously navigate to the exit. This was accomplished using ultrasonic sensors to detect obstacles. When a wall is detected ahead, the rover turns in the direction with more open space, enabling efficient navigation through the canyon.
+
+* **Data Transmission**
+    After returning to the lander, the rover must locate an IR beacon and accurately aim a laser at a target. A servo-mounted sensor scans for the strongest IR signal, allowing the rover to align itself before activating the laser to hit the target reliably.
+
+    ![](data_transmission.jpg)
+
+## Course Completion Run
+
+![](scrappy_run.mp4){height="400px"}
+
+Runtime Video
+
+## Final Rover Iteration
+The final build optimized weight distribution and sensor placement, resulting in a robust platform capable of handling randomized task locations.
+
+
+![](scrappy_main_photo_short.jpg){height="300px"}
+
+*Final rover iteration*

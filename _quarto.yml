@@ -24,3 +24,5 @@ format:
     theme: lux
     toc: true
     include-after-body: footer.html
+    code-fold: true
+    code-summary: "Show the code" # Optional: Customizes the button text

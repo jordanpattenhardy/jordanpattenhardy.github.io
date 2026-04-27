@@ -78,8 +78,7 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
 
 #### **Awards/Activities** 
 * BYU Engineering Together Research Mentorship Award
-* Crocker Innovation Fellow (2026)
-    * Collaborating on an interdisciplinary team to develop an IoT (Internet of Things) solution for a real-world problem
+* Crocker Innovation Fellow, 2026
 * Professional Memberships: 
     * The BYU Biomedical Engineering Association (Industry Committee Lead)
     * The American Society of Mechanical Engineers (ASME, member)
