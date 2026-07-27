@@ -4,7 +4,7 @@ image: scrappy_main_photo_short.jpg
 ---
 
 ## Project Overview
-The goal of this project was to design and build an autonomous rover capable of completing a course with five distinct tasks placed at random locations. The engineering team consisted of four members, collectively responsible for the mechanical design, electrical systems, and programming of the robot.
+This project aimed to design and build an autonomous rover capable of executing a course with five distinct tasks placed at randomized locations. Working in a four-person engineering team, we collaborated across mechanical design, electrical systems, and software integration to deliver a fully autonomous mobile platform.
 
 ::: {style="text-align: left; margin-left: 20px;"}
 
@@ -15,22 +15,22 @@ The goal of this project was to design and build an autonomous rover capable of 
 
 
 ## Tasks
-* **Leave Lander and Line Follow**
-    The rover begins by exiting the lander and following a white line along the course. This was achieved using a QRD sensor array, which detects the rover’s position relative to the line and continuously adjusts its trajectory for accurate tracking.
+* **Leave Lander and Line Follow:**
+    The rover begins by exiting the lander and locking onto a white guidance track. We achieved this using an underside QRD sensor array, which calculates relative position offset to dynamically adjust motor differential output for precise line tracking.
 
     ![](QRD_array.jpg){height="300px"}
 
-* **Sample Collection and Return**
-    The rover detects the sample collection station using an IR sensor and positions itself to receive a ping pong ball. It then transports the sample and deposits it into the correct return bin based on color. This system combines IR and ultrasonic sensors for detection, along with a custom-designed ball capture and release mechanism.
+* **Sample Collection and Return:**
+    Using IR and ultrasonic sensors for proximity detection, the rover aligns with the collection station to receive a ping pong ball payload. It then transports the sample and deposits it into the correct bin based on color feedback, leveraging a custom ball capture and release mechanism.
 
     ![](sample_collect.jpg)
     ![](sample_return.jpg)
 
-* **Canyon Navigation**
-    In a section without guiding lines and enclosed by walls, the rover must autonomously navigate to the exit. This was accomplished using ultrasonic sensors to detect obstacles. When a wall is detected ahead, the rover turns in the direction with more open space, enabling efficient navigation through the canyon.
+* **Canyon Navigation:**
+    In unmapped sections without guidance lines, the rover transitions to wall-following logic to navigate to the exit. We integrated ultrasonic sensors to detect forward obstacles; when a wall is encountered, the rover evaluates boundary clearances and steers toward open space.
 
-* **Data Transmission**
-    After returning to the lander, the rover must locate an IR beacon and accurately aim a laser at a target. A servo-mounted sensor scans for the strongest IR signal, allowing the rover to align itself before activating the laser to hit the target reliably.
+* **Data Transmission:**
+    Upon returning to the lander base, the rover locates an active IR beacon and aims a targeting laser at a designated target. A servo-mounted sensor sweeps 180 degrees to identify the peak IR signal intensity, allowing the chassis to align before activating the laser.
 
     ![](data_transmission.jpg)
 
@@ -41,7 +41,7 @@ The goal of this project was to design and build an autonomous rover capable of 
 Runtime Video
 
 ## Final Rover Iteration
-The final build optimized weight distribution and sensor placement, resulting in a robust platform capable of handling randomized task locations.
+The final build optimized chassis weight distribution, reduced electrical signal noise, and refined sensor placement to establish a robust platform capable of handling unpredictable trial layouts.
 
 
 ![](scrappy_main_photo_short.jpg){height="300px"}

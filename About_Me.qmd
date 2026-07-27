@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world.
+Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Senior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world.
 
 ::: {layout-align="center"}
 ![](HardyHeadshot2026.jpg){width=50% fig-align="center"}
@@ -25,6 +25,10 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
 *Learn more about BYU's Design Exploration Research Lab work: [design.byu.edu](https://www.design.byu.edu/)*
 
 ## WORK EXPERIENCE
+* **Student Engineer**, *WesTech Engineering* | Salt Lake City, Utah (May 2026 – August 2026)
+    * Designed detailed Process Flow Diagrams (PFDs) and compiled equipment lists for rental water treatment systems.
+    * Estimated capital costs for water treatment machinery by directly engaging with external vendors and analyzing quote submissions.
+    * Assembled comprehensive engineering proposal packages for client submission under tight deadlines.
 * **Mechanical Engineer**, *Crocker Innovation Fellowship* | Provo, Utah (Dec 2025 - Present)
     * Collaborate with an interdisciplinary team to develop a food allergen detection device
     * Develop and execute test protocols to validate device performance
@@ -32,6 +36,7 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
 * **Teaching Assistant-Newtonian Mechanics**, *Brigham Young University* | Provo, Utah (Jan 2024 – May 2025)
     * Supported instruction of undergraduates in core engineering and physics concepts
     * Graded assignments and provided detailed feedback to enhance learning
+
 
 
 
@@ -86,4 +91,4 @@ Hi! I’m **Jordan Patten Hardy**: student researcher, social impact–driven en
   
 
 
-Link to my current [resume](HardyResumeApril2026.pdf)
+Link to my current [resume](HardyResumeJuly2026.pdf)

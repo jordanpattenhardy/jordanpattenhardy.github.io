@@ -4,7 +4,7 @@
     "href": "About_Me.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! I’m Jordan Patten Hardy: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Junior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world."
+    "text": "Hi! I’m Jordan Patten Hardy: student researcher, social impact–driven engineer, and avid design enthusiast. I’m a Senior Mechanical Engineering student at Brigham Young University, and I believe in engineering for the good of the world."
   },
   {
     "objectID": "Resume.html",
@@ -67,7 +67,7 @@
     "href": "About_Me.html#work-experience",
     "title": "About Me",
     "section": "WORK EXPERIENCE",
-    "text": "WORK EXPERIENCE\n\nMechanical Engineer, Crocker Innovation Fellowship | Provo, Utah (Dec 2025 - Present)\n\nCollaborate with an interdisciplinary team to develop a food allergen detection device\nDevelop and execute test protocols to validate device performance\nPrototype electromechanical systems using C++ firmware and custom circuitry, increasing detection accuracy by 15% through noise reduction\n\nTeaching Assistant-Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
+    "text": "WORK EXPERIENCE\n\nStudent Engineer, WesTech Engineering | Salt Lake City, Utah (May 2026 – August 2026)\n\nDesigned detailed Process Flow Diagrams (PFDs) and compiled equipment lists for rental water treatment systems.\nEstimated capital costs for water treatment machinery by directly engaging with external vendors and analyzing quote submissions.\nAssembled comprehensive engineering proposal packages for client submission under tight deadlines.\n\nMechanical Engineer, Crocker Innovation Fellowship | Provo, Utah (Dec 2025 - Present)\n\nCollaborate with an interdisciplinary team to develop a food allergen detection device\nDevelop and execute test protocols to validate device performance\nPrototype electromechanical systems using C++ firmware and custom circuitry, increasing detection accuracy by 15% through noise reduction\n\nTeaching Assistant-Newtonian Mechanics, Brigham Young University | Provo, Utah (Jan 2024 – May 2025)\n\nSupported instruction of undergraduates in core engineering and physics concepts\nGraded assignments and provided detailed feedback to enhance learning"
   },
   {
     "objectID": "About_Me.html#section",
@@ -289,14 +289,14 @@
   {
     "objectID": "projects/nes_controller/index.html",
     "href": "projects/nes_controller/index.html",
-    "title": "Computer Model of NES Controller",
+    "title": "Computer Model of the NES Controller",
     "section": "",
     "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a fully parametric CAD model. It prioritized dimensional accuracy and adaptability for future design changes.\n\n\n\nCompleted Assembly"
   },
   {
     "objectID": "projects/nes_controller/index.html#project-overview",
     "href": "projects/nes_controller/index.html#project-overview",
-    "title": "Computer Model of NES Controller",
+    "title": "Computer Model of the NES Controller",
     "section": "",
     "text": "The goal of this project was to recreate Nintendo’s iconic NES controller as a fully parametric CAD model. It prioritized dimensional accuracy and adaptability for future design changes.\n\n\n\nCompleted Assembly"
   },
@@ -310,7 +310,7 @@
   {
     "objectID": "projects/nes_controller/index.html#project-details",
     "href": "projects/nes_controller/index.html#project-details",
-    "title": "Computer Model of NES Controller",
+    "title": "Computer Model of the NES Controller",
     "section": "Project Details",
     "text": "Project Details\n\nThe controller was modeled using engineering drawings drawn by C. A. Mattson.\nCAD operations used in the completion of this project include lofts, revolves, sweeps, and patterns.\nI modeled many of the parts, including the Start/Select Buttons, the A/B Buttons, the D-Pad, the Top and Bottom covers (with supports and rib bosses) and the PCB. Other parts, such as the charging cord, were provided as part of the project.\n\n\n\n\nExploded View Assemly"
   },
@@ -564,14 +564,14 @@
     "href": "projects/mechatronics/index.html",
     "title": "Mini Mars Rover Autonomous Robot",
     "section": "",
-    "text": "The goal of this project was to design and build an autonomous rover capable of completing a course with five distinct tasks placed at random locations. The engineering team consisted of four members, collectively responsible for the mechanical design, electrical systems, and programming of the robot.\n\n\nAn early iteration of our rover"
+    "text": "This project aimed to design and build an autonomous rover capable of executing a course with five distinct tasks placed at randomized locations. Working in a four-person engineering team, we collaborated across mechanical design, electrical systems, and software integration to deliver a fully autonomous mobile platform.\n\n\nAn early iteration of our rover"
   },
   {
     "objectID": "projects/mechatronics/index.html#project-overview",
     "href": "projects/mechatronics/index.html#project-overview",
     "title": "Mini Mars Rover Autonomous Robot",
     "section": "",
-    "text": "The goal of this project was to design and build an autonomous rover capable of completing a course with five distinct tasks placed at random locations. The engineering team consisted of four members, collectively responsible for the mechanical design, electrical systems, and programming of the robot.\n\n\nAn early iteration of our rover"
+    "text": "This project aimed to design and build an autonomous rover capable of executing a course with five distinct tasks placed at randomized locations. Working in a four-person engineering team, we collaborated across mechanical design, electrical systems, and software integration to deliver a fully autonomous mobile platform.\n\n\nAn early iteration of our rover"
   },
   {
     "objectID": "projects/mechatronics/index.html#results-and-final-recommendation",
@@ -746,7 +746,7 @@
     "href": "projects/mechatronics/index.html#tasks",
     "title": "Mini Mars Rover Autonomous Robot",
     "section": "Tasks",
-    "text": "Tasks\n\nLeave Lander and Line Follow The rover begins by exiting the lander and following a white line along the course. This was achieved using a QRD sensor array, which detects the rover’s position relative to the line and continuously adjusts its trajectory for accurate tracking.\n\nSample Collection and Return The rover detects the sample collection station using an IR sensor and positions itself to receive a ping pong ball. It then transports the sample and deposits it into the correct return bin based on color. This system combines IR and ultrasonic sensors for detection, along with a custom-designed ball capture and release mechanism.\n \nCanyon Navigation In a section without guiding lines and enclosed by walls, the rover must autonomously navigate to the exit. This was accomplished using ultrasonic sensors to detect obstacles. When a wall is detected ahead, the rover turns in the direction with more open space, enabling efficient navigation through the canyon.\nData Transmission After returning to the lander, the rover must locate an IR beacon and accurately aim a laser at a target. A servo-mounted sensor scans for the strongest IR signal, allowing the rover to align itself before activating the laser to hit the target reliably."
+    "text": "Tasks\n\nLeave Lander and Line Follow: The rover begins by exiting the lander and locking onto a white guidance track. We achieved this using an underside QRD sensor array, which calculates relative position offset to dynamically adjust motor differential output for precise line tracking.\n\nSample Collection and Return: Using IR and ultrasonic sensors for proximity detection, the rover aligns with the collection station to receive a ping pong ball payload. It then transports the sample and deposits it into the correct bin based on color feedback, leveraging a custom ball capture and release mechanism.\n \nCanyon Navigation: In unmapped sections without guidance lines, the rover transitions to wall-following logic to navigate to the exit. We integrated ultrasonic sensors to detect forward obstacles; when a wall is encountered, the rover evaluates boundary clearances and steers toward open space.\nData Transmission: Upon returning to the lander base, the rover locates an active IR beacon and aims a targeting laser at a designated target. A servo-mounted sensor sweeps 180 degrees to identify the peak IR signal intensity, allowing the chassis to align before activating the laser."
   },
   {
     "objectID": "projects/mechatronics/index.html#course-completion-run",
@@ -759,6 +759,27 @@
     "objectID": "projects/mechatronics/index.html#final-rover-iteration",
     "href": "projects/mechatronics/index.html#final-rover-iteration",
     "title": "Mini Mars Rover Autonomous Robot",
+    "section": "Final Rover Iteration",
+    "text": "Final Rover Iteration\nThe final build optimized chassis weight distribution, reduced electrical signal noise, and refined sensor placement to establish a robust platform capable of handling unpredictable trial layouts.\n\nFinal rover iteration"
+  },
+  {
+    "objectID": "projects/hand_mixer/index.html#tasks",
+    "href": "projects/hand_mixer/index.html#tasks",
+    "title": "Jordan Patten Hardy",
+    "section": "Tasks",
+    "text": "Tasks\n\nLeave Lander and Line Follow The rover begins by exiting the lander and following a white line along the course. This was achieved using a QRD sensor array, which detects the rover’s position relative to the line and continuously adjusts its trajectory for accurate tracking.\n\nSample Collection and Return The rover detects the sample collection station using an IR sensor and positions itself to receive a ping pong ball. It then transports the sample and deposits it into the correct return bin based on color. This system combines IR and ultrasonic sensors for detection, along with a custom-designed ball capture and release mechanism.\n \nCanyon Navigation In a section without guiding lines and enclosed by walls, the rover must autonomously navigate to the exit. This was accomplished using ultrasonic sensors to detect obstacles. When a wall is detected ahead, the rover turns in the direction with more open space, enabling efficient navigation through the canyon.\nData Transmission After returning to the lander, the rover must locate an IR beacon and accurately aim a laser at a target. A servo-mounted sensor scans for the strongest IR signal, allowing the rover to align itself before activating the laser to hit the target reliably."
+  },
+  {
+    "objectID": "projects/hand_mixer/index.html#course-completion-run",
+    "href": "projects/hand_mixer/index.html#course-completion-run",
+    "title": "Jordan Patten Hardy",
+    "section": "Course Completion Run",
+    "text": "Course Completion Run\nVideo\nRuntime Video"
+  },
+  {
+    "objectID": "projects/hand_mixer/index.html#final-rover-iteration",
+    "href": "projects/hand_mixer/index.html#final-rover-iteration",
+    "title": "Jordan Patten Hardy",
     "section": "Final Rover Iteration",
     "text": "Final Rover Iteration\nThe final build optimized weight distribution and sensor placement, resulting in a robust platform capable of handling randomized task locations.\n\nFinal rover iteration"
   }
