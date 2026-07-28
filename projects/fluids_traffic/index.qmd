@@ -4,84 +4,72 @@ image: traffic.jpg
 ---
 
 ## Project Overview
-Traffic engineers frequently employ fluid dynamics to model vehicular flow at a macroscopic scale. By applying Reynolds Transport Theorem to vehicle density, we derived a continuity equation that approximates the progression of traffic along a closed corridor. To account for lateral movement, we integrated Fick’s Law to develop a diffusion model, illustrating how traffic equilibrates as drivers transition from high-density lanes to those with lower congestion.
+This project aimed to model vehicular traffic flow at a macroscopic scale by applying fundamental fluid dynamics principles. Working in a two-person team, we integrated Reynolds Transport Theorem with vehicle density parameters to derive a continuous flow model that approximates traffic progression along a corridor. Additionally, we implemented Fick’s Law to simulate lateral movement, demonstrating how traffic density equilibrates as drivers transition away from high-congestion lanes.
 
 ![Photo by [Koushik Pal](https://unsplash.com/@koushikpal) on [Unsplash](https://unsplash.com/photos/aerial-photography-of-vehicles-yBhOcUr4TVY)](traffic.jpg){fig-align="center" width="50%"}
 
 ## Simulation Conditions
-The goal was to be able to model two common traffic situations: a red light turning green and traffic approaching a lane closure.
+The primary objective of this project was to simulate and evaluate two common traffic scenarios: a red light transitioning to green and vehicles approaching an unexpected lane closure.
 
 ### Condition 1: Red light at x = 300 m for 250 frames
 
-::: {style="text-align: center;"}
-![Runtime Video](red_light_vid.mp4){height="400px"}
-:::
+![Runtime Video](red_light_vid.mp4){fig-align="center" height="400px"}
 
 ### Condition 2: Bottom lane closed at x = 300 m
 
-::: {style="text-align: center;"}
-![Runtime Video](lane_close_vid.mp4){height="400px"}
-:::
+![Runtime Video](lane_close_vid.mp4){fig-align="center" height="400px"}
 
 ## Methods
 ### The LWR Model
-The Lighthill-Whitman-Richards (LWR) model is a 1D approximation of traffic flow that utilizes the conservation equation.
+The Lighthill-Whitham-Richards (LWR) model provides a 1D continuum approximation of traffic flow built on conservation principles.
 
-1. Reynolds Transport Theorem (RTT): 
-The model begins by applying the Reynolds Transport Theorem to cars to solve in differential form
-$$\frac{dB_{sys}}{dt} = \frac{d}{dt} \int_{CV} \rho \, dV + \int_{CS} \rho (\vec{v} \cdot \vec{n}) \, dA$$ 
+1. **Reynolds Transport Theorem (RTT):**  
+   The formulation begins by applying Reynolds Transport Theorem to treat discrete vehicles as a continuous system in differential form:
+   $$\frac{dB_{sys}}{dt} = \frac{d}{dt} \int_{CV} \rho \, dV + \int_{CS} \rho (\vec{v} \cdot \vec{n}) \, dA$$
 
-2. Conservation of Cars: 
-By applying the conservation of cars, the equation simplifies to the fundamental traffic flow PDE
-$$\frac{\partial \rho}{\partial t} + \frac{\partial (\rho v)}{\partial x} = 0$$ 
+2. **Conservation of Cars:**  
+   Applying conservation of vehicle mass simplifies the relationship into the fundamental traffic flow partial differential equation:
+   $$\frac{\partial \rho}{\partial t} + \frac{\partial (\rho v)}{\partial x} = 0$$
 
-3. Greenshields Closure: 
-To relate velocity ($v$) and density ($\rho$), the Greenshields model is applied
-$$v(\rho) = v_{max} \left( 1 - \frac{\rho}{\rho_{max}} \right)$$ 
-
+3. **Greenshields Closure:**  
+   To relate vehicle velocity ($v$) directly to local traffic density ($\rho$), we applied the Greenshields model:
+   $$v(\rho) = v_{max} \left( 1 - \frac{\rho}{\rho_{max}} \right)$$
 
 ### Numerical Implementation: Solving the LWR Model
-To simulate the model, finite difference methods are used to solve the partial differential equations.
+To execute the simulation, finite difference numerical methods were used to solve the governing partial differential equations.
 
-1. Lax-Friedrichs Finite Difference (Flux Form): 
-This method is used to handle the forward flux of traffic
-$$\rho_j^{n+1} = \frac{1}{2}(\rho_{j+1}^n + \rho_{j-1}^n) - \frac{\Delta t}{2\Delta x}(f_{j+1}^n - f_{j-1}^n)$$
+1. **Lax-Friedrichs Finite Difference (Flux Form):**  
+   This central-difference method handles forward traffic flux and ensures stable wave propagation in both directions:
+   $$\rho_j^{n+1} = \frac{1}{2}(\rho_{j+1}^n + \rho_{j-1}^n) - \frac{\Delta t}{2\Delta x}(f_{j+1}^n - f_{j-1}^n)$$
 
-2. Fick’s Law: 
-To account for lane merging or sideways movement, Fick's Law is incorporated
-$$J = -D \frac{\partial \rho}{\partial x}$$ 
+2. **Fick’s Law:**  
+   To account for lane-merging behavior and lateral vehicle displacement, we incorporated diffusive flux across adjacent lanes:
+   $$J = -D \frac{\partial \rho}{\partial x}$$
 
-3. Fully Formed PDE: 
-The final simulation uses a combined PDE featuring both the LWR forward flux and Fick’s Law sideways diffusion
-$$\frac{\partial \rho}{\partial t} + \frac{\partial f(\rho)}{\partial x} = D \frac{\partial^2 \rho}{\partial x^2}$$
+3. **Fully Formed PDE:**  
+   The final simulation combines LWR forward convection with Fickian lateral diffusion into a single unified solver:
+   $$\frac{\partial \rho}{\partial t} + \frac{\partial f(\rho)}{\partial x} = D \frac{\partial^2 \rho}{\partial x^2}$$
 
 ## Discussion
-The simulations confirm that our mathematical framework accurately replicates macroscopic traffic phenomena, specifically the formation of back-propagating shockwaves at red lights and rarefaction waves during green-light dissipation. In lane closures, the model successfully captures the bottleneck effect, with density accumulating at the obstruction and diffusing laterally into adjacent lanes.
+The simulation results confirmed that our mathematical framework accurately replicates real-world macroscopic traffic behavior. Specifically, the model captured the formation of backward-propagating shockwaves behind red lights, as well as rarefaction waves during green-light dissipation. In the lane closure scenario, the solver successfully modeled the bottleneck effect, showing density accumulating at the obstruction before diffusing laterally into open adjacent lanes.
 
 ## Model Limitations
-Despite its strengths, the model's predictive accuracy is constrained by two primary factors:
+While effective for macro-level modeling, the predictive accuracy of this framework is constrained by two primary factors:
 
-1. Absence of Human Latency: The model assumes instantaneous acceleration. In reality, "start-up lost time" (human reaction delay) means real-world queues clear much slower than the fluid continuum suggests.
+1. **Absence of Human Latency:** The model assumes instantaneous acceleration. In reality, "start-up lost time" (human reaction delay) causes real-world queues to dissipate slower than this continuum approach suggests.
 
-2. Macroscopic Simplifications:
-
-   - Homogeneity: It assumes all vehicles behave identically, ignoring the varied dynamics of trucks versus passenger cars.
-
-   - Continuum Hypothesis: Treating traffic as a fluid reduces accuracy in low-density scenarios where individual driver behavior dominates.
-
-   - Reduced Dimensionality: By modeling density purely as a function of space (x) and time (t), we overlook the impacts of road grade, curvature, and complex weaving.
-
+2. **Macroscopic Simplifications:**
+   * **Homogeneity:** It assumes uniform vehicle dynamics, neglecting performance variations between heavy trucks and passenger cars.
+   * **Continuum Hypothesis:** Treating traffic as a continuous fluid reduces accuracy in low-density scenarios where individual driver choices dominate.
+   * **Reduced Dimensionality:** Modeling density strictly as a function of space ($x$) and time ($t$) overlooks key physical factors such as road grade, curvature, and complex weaving.
 
 ## Conclusion
-The alignment between the simulation and expected physical wave patterns validates the use of Reynolds Transport Theorem and Fick’s Law for broad flow analysis, even while acknowledging these inherent behavioral gaps.
-
+The strong alignment between our simulation and expected physical wave behaviors validates using Reynolds Transport Theorem and Fick’s Law for broad flow analysis, while highlighting key areas for micro-scale driver refinements.
 
 ```{python}
 
 """
 Created on Wed Mar 11 10:32:01 2026
-
-@author: micha
 """
 import numpy as np
 import matplotlib.pyplot as plt
